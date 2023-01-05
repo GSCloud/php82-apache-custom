@@ -13,7 +13,7 @@
   From: util-linux/libblkid-dev@2.36.1-8+deb11u1 > util-linux/uuid-dev@2.36.1-8+deb11u1
   From: cairo/libcairo2-dev@1.16.0-5 > fontconfig/libfontconfig1-dev@2.13.1-4.2 > fontconfig/libfontconfig-dev@2.13.1-4.2 > util-linux/uuid-dev@2.36.1-8+deb11u1
   and 14 more...
-  Image layer: Introduced by your base image (php:8.1.13-apache-bullseye)
+  Image layer: Introduced by your base image (php:8.2.0-apache-bullseye)
 
 ✗ Low severity vulnerability found in unzip
   Description: NULL Pointer Dereference
@@ -257,7 +257,7 @@
   Info: https://security.snyk.io/vuln/SNYK-DEBIAN11-TAR-523480
   Introduced through: meta-common-packages@meta
   From: meta-common-packages@meta > tar@1.34+dfsg-1
-  Image layer: Introduced by your base image (php:8.1.13-apache-bullseye)
+  Image layer: Introduced by your base image (php:8.2.0-apache-bullseye)
 
 ✗ Low severity vulnerability found in systemd/libsystemd0
   Description: Authentication Bypass
@@ -351,7 +351,7 @@
   From: adduser@3.118 > shadow/passwd@1:4.8.1-1
   From: shadow/login@1:4.8.1-1
   and 1 more...
-  Image layer: Introduced by your base image (php:8.1.13-apache-bullseye)
+  Image layer: Introduced by your base image (php:8.2.0-apache-bullseye)
 
 ✗ Low severity vulnerability found in shadow/passwd
   Description: Time-of-check Time-of-use (TOCTOU)
@@ -361,7 +361,7 @@
   From: adduser@3.118 > shadow/passwd@1:4.8.1-1
   From: shadow/login@1:4.8.1-1
   and 1 more...
-  Image layer: Introduced by your base image (php:8.1.13-apache-bullseye)
+  Image layer: Introduced by your base image (php:8.2.0-apache-bullseye)
 
 ✗ Low severity vulnerability found in shadow/passwd
   Description: Incorrect Permission Assignment for Critical Resource
@@ -371,21 +371,21 @@
   From: adduser@3.118 > shadow/passwd@1:4.8.1-1
   From: shadow/login@1:4.8.1-1
   and 1 more...
-  Image layer: Introduced by your base image (php:8.1.13-apache-bullseye)
+  Image layer: Introduced by your base image (php:8.2.0-apache-bullseye)
 
 ✗ Low severity vulnerability found in re2c
   Description: Out-of-bounds Write
   Info: https://security.snyk.io/vuln/SNYK-DEBIAN11-RE2C-2436868
   Introduced through: re2c@2.0.3-1
   From: re2c@2.0.3-1
-  Image layer: Introduced by your base image (php:8.1.13-apache-bullseye)
+  Image layer: Introduced by your base image (php:8.2.0-apache-bullseye)
 
 ✗ Low severity vulnerability found in re2c
   Description: Uncontrolled Recursion
   Info: https://security.snyk.io/vuln/SNYK-DEBIAN11-RE2C-567857
   Introduced through: re2c@2.0.3-1
   From: re2c@2.0.3-1
-  Image layer: Introduced by your base image (php:8.1.13-apache-bullseye)
+  Image layer: Introduced by your base image (php:8.2.0-apache-bullseye)
 
 ✗ Low severity vulnerability found in python3.9/libpython3.9-minimal
   Description: CVE-2020-27619
@@ -395,7 +395,7 @@
   From: python3-defaults/libpython3-stdlib@3.9.2-3 > python3.9/libpython3.9-stdlib@3.9.2-1 > python3.9/libpython3.9-minimal@3.9.2-1
   From: python3-defaults/python3@3.9.2-3 > python3.9@3.9.2-1 > python3.9/python3.9-minimal@3.9.2-1 > python3.9/libpython3.9-minimal@3.9.2-1
   and 8 more...
-  Image layer: Introduced by your base image (php:8.1.13-apache-bullseye)
+  Image layer: Introduced by your base image (php:8.2.0-apache-bullseye)
 
 ✗ Low severity vulnerability found in python3.9/libpython3.9-minimal
   Description: Directory Traversal
@@ -405,7 +405,7 @@
   From: python3-defaults/libpython3-stdlib@3.9.2-3 > python3.9/libpython3.9-stdlib@3.9.2-1 > python3.9/libpython3.9-minimal@3.9.2-1
   From: python3-defaults/python3@3.9.2-3 > python3.9@3.9.2-1 > python3.9/python3.9-minimal@3.9.2-1 > python3.9/libpython3.9-minimal@3.9.2-1
   and 8 more...
-  Image layer: Introduced by your base image (php:8.1.13-apache-bullseye)
+  Image layer: Introduced by your base image (php:8.2.0-apache-bullseye)
 
 ✗ Low severity vulnerability found in python3.9/libpython3.9-minimal
   Description: CVE-2021-29921
@@ -415,7 +415,7 @@
   From: python3-defaults/libpython3-stdlib@3.9.2-3 > python3.9/libpython3.9-stdlib@3.9.2-1 > python3.9/libpython3.9-minimal@3.9.2-1
   From: python3-defaults/python3@3.9.2-3 > python3.9@3.9.2-1 > python3.9/python3.9-minimal@3.9.2-1 > python3.9/libpython3.9-minimal@3.9.2-1
   and 8 more...
-  Image layer: Introduced by your base image (php:8.1.13-apache-bullseye)
+  Image layer: Introduced by your base image (php:8.2.0-apache-bullseye)
 
 ✗ Low severity vulnerability found in python3.9/libpython3.9-minimal
   Description: Resource Exhaustion
@@ -425,7 +425,7 @@
   From: python3-defaults/libpython3-stdlib@3.9.2-3 > python3.9/libpython3.9-stdlib@3.9.2-1 > python3.9/libpython3.9-minimal@3.9.2-1
   From: python3-defaults/python3@3.9.2-3 > python3.9@3.9.2-1 > python3.9/python3.9-minimal@3.9.2-1 > python3.9/libpython3.9-minimal@3.9.2-1
   and 8 more...
-  Image layer: Introduced by your base image (php:8.1.13-apache-bullseye)
+  Image layer: Introduced by your base image (php:8.2.0-apache-bullseye)
 
 ✗ Low severity vulnerability found in python3.9/libpython3.9-minimal
   Description: Resource Exhaustion
@@ -435,7 +435,7 @@
   From: python3-defaults/libpython3-stdlib@3.9.2-3 > python3.9/libpython3.9-stdlib@3.9.2-1 > python3.9/libpython3.9-minimal@3.9.2-1
   From: python3-defaults/python3@3.9.2-3 > python3.9@3.9.2-1 > python3.9/python3.9-minimal@3.9.2-1 > python3.9/libpython3.9-minimal@3.9.2-1
   and 8 more...
-  Image layer: Introduced by your base image (php:8.1.13-apache-bullseye)
+  Image layer: Introduced by your base image (php:8.2.0-apache-bullseye)
 
 ✗ Low severity vulnerability found in python3.9/libpython3.9-minimal
   Description: Unchecked Return Value
@@ -445,7 +445,7 @@
   From: python3-defaults/libpython3-stdlib@3.9.2-3 > python3.9/libpython3.9-stdlib@3.9.2-1 > python3.9/libpython3.9-minimal@3.9.2-1
   From: python3-defaults/python3@3.9.2-3 > python3.9@3.9.2-1 > python3.9/python3.9-minimal@3.9.2-1 > python3.9/libpython3.9-minimal@3.9.2-1
   and 8 more...
-  Image layer: Introduced by your base image (php:8.1.13-apache-bullseye)
+  Image layer: Introduced by your base image (php:8.2.0-apache-bullseye)
 
 ✗ Low severity vulnerability found in python3.9/libpython3.9-minimal
   Description: Arbitrary Code Injection
@@ -455,7 +455,7 @@
   From: python3-defaults/libpython3-stdlib@3.9.2-3 > python3.9/libpython3.9-stdlib@3.9.2-1 > python3.9/libpython3.9-minimal@3.9.2-1
   From: python3-defaults/python3@3.9.2-3 > python3.9@3.9.2-1 > python3.9/python3.9-minimal@3.9.2-1 > python3.9/libpython3.9-minimal@3.9.2-1
   and 8 more...
-  Image layer: Introduced by your base image (php:8.1.13-apache-bullseye)
+  Image layer: Introduced by your base image (php:8.2.0-apache-bullseye)
 
 ✗ Low severity vulnerability found in python3.9/libpython3.9-minimal
   Description: Arbitrary Command Injection
@@ -465,7 +465,7 @@
   From: python3-defaults/libpython3-stdlib@3.9.2-3 > python3.9/libpython3.9-stdlib@3.9.2-1 > python3.9/libpython3.9-minimal@3.9.2-1
   From: python3-defaults/python3@3.9.2-3 > python3.9@3.9.2-1 > python3.9/python3.9-minimal@3.9.2-1 > python3.9/libpython3.9-minimal@3.9.2-1
   and 8 more...
-  Image layer: Introduced by your base image (php:8.1.13-apache-bullseye)
+  Image layer: Introduced by your base image (php:8.2.0-apache-bullseye)
 
 ✗ Low severity vulnerability found in python3.9/libpython3.9-minimal
   Description: Incorrect Type Conversion or Cast
@@ -475,7 +475,7 @@
   From: python3-defaults/libpython3-stdlib@3.9.2-3 > python3.9/libpython3.9-stdlib@3.9.2-1 > python3.9/libpython3.9-minimal@3.9.2-1
   From: python3-defaults/python3@3.9.2-3 > python3.9@3.9.2-1 > python3.9/python3.9-minimal@3.9.2-1 > python3.9/libpython3.9-minimal@3.9.2-1
   and 8 more...
-  Image layer: Introduced by your base image (php:8.1.13-apache-bullseye)
+  Image layer: Introduced by your base image (php:8.2.0-apache-bullseye)
 
 ✗ Low severity vulnerability found in python3.9/libpython3.9-minimal
   Description: Open Redirect
@@ -485,7 +485,7 @@
   From: python3-defaults/libpython3-stdlib@3.9.2-3 > python3.9/libpython3.9-stdlib@3.9.2-1 > python3.9/libpython3.9-minimal@3.9.2-1
   From: python3-defaults/python3@3.9.2-3 > python3.9@3.9.2-1 > python3.9/python3.9-minimal@3.9.2-1 > python3.9/libpython3.9-minimal@3.9.2-1
   and 8 more...
-  Image layer: Introduced by your base image (php:8.1.13-apache-bullseye)
+  Image layer: Introduced by your base image (php:8.2.0-apache-bullseye)
 
 ✗ Low severity vulnerability found in python3.9/libpython3.9-minimal
   Description: Integer Overflow or Wraparound
@@ -495,7 +495,7 @@
   From: python3-defaults/libpython3-stdlib@3.9.2-3 > python3.9/libpython3.9-stdlib@3.9.2-1 > python3.9/libpython3.9-minimal@3.9.2-1
   From: python3-defaults/python3@3.9.2-3 > python3.9@3.9.2-1 > python3.9/python3.9-minimal@3.9.2-1 > python3.9/libpython3.9-minimal@3.9.2-1
   and 8 more...
-  Image layer: Introduced by your base image (php:8.1.13-apache-bullseye)
+  Image layer: Introduced by your base image (php:8.2.0-apache-bullseye)
 
 ✗ Low severity vulnerability found in python3.9/libpython3.9-minimal
   Description: CVE-2022-42919
@@ -505,7 +505,7 @@
   From: python3-defaults/libpython3-stdlib@3.9.2-3 > python3.9/libpython3.9-stdlib@3.9.2-1 > python3.9/libpython3.9-minimal@3.9.2-1
   From: python3-defaults/python3@3.9.2-3 > python3.9@3.9.2-1 > python3.9/python3.9-minimal@3.9.2-1 > python3.9/libpython3.9-minimal@3.9.2-1
   and 8 more...
-  Image layer: Introduced by your base image (php:8.1.13-apache-bullseye)
+  Image layer: Introduced by your base image (php:8.2.0-apache-bullseye)
 
 ✗ Low severity vulnerability found in python3.9/libpython3.9-minimal
   Description: Resource Exhaustion
@@ -515,7 +515,7 @@
   From: python3-defaults/libpython3-stdlib@3.9.2-3 > python3.9/libpython3.9-stdlib@3.9.2-1 > python3.9/libpython3.9-minimal@3.9.2-1
   From: python3-defaults/python3@3.9.2-3 > python3.9@3.9.2-1 > python3.9/python3.9-minimal@3.9.2-1 > python3.9/libpython3.9-minimal@3.9.2-1
   and 8 more...
-  Image layer: Introduced by your base image (php:8.1.13-apache-bullseye)
+  Image layer: Introduced by your base image (php:8.2.0-apache-bullseye)
 
 ✗ Low severity vulnerability found in perl/perl-modules-5.32
   Description: Improper Verification of Cryptographic Signature
@@ -545,7 +545,7 @@
   From: cairo/libcairo2-dev@1.16.0-5 > glib2.0/libglib2.0-dev@2.66.8-1 > pcre3/libpcre3-dev@2:8.39-13 > pcre3/libpcre16-3@2:8.39-13
   From: pcre3/libpcre32-3@2:8.39-13
   and 6 more...
-  Image layer: Introduced by your base image (php:8.1.13-apache-bullseye)
+  Image layer: Introduced by your base image (php:8.2.0-apache-bullseye)
 
 ✗ Low severity vulnerability found in pcre3/libpcre16-3
   Description: Out-of-Bounds
@@ -555,7 +555,7 @@
   From: cairo/libcairo2-dev@1.16.0-5 > glib2.0/libglib2.0-dev@2.66.8-1 > pcre3/libpcre3-dev@2:8.39-13 > pcre3/libpcre16-3@2:8.39-13
   From: pcre3/libpcre32-3@2:8.39-13
   and 6 more...
-  Image layer: Introduced by your base image (php:8.1.13-apache-bullseye)
+  Image layer: Introduced by your base image (php:8.2.0-apache-bullseye)
 
 ✗ Low severity vulnerability found in pcre3/libpcre16-3
   Description: Uncontrolled Recursion
@@ -565,7 +565,7 @@
   From: cairo/libcairo2-dev@1.16.0-5 > glib2.0/libglib2.0-dev@2.66.8-1 > pcre3/libpcre3-dev@2:8.39-13 > pcre3/libpcre16-3@2:8.39-13
   From: pcre3/libpcre32-3@2:8.39-13
   and 6 more...
-  Image layer: Introduced by your base image (php:8.1.13-apache-bullseye)
+  Image layer: Introduced by your base image (php:8.2.0-apache-bullseye)
 
 ✗ Low severity vulnerability found in pcre3/libpcre16-3
   Description: Out-of-Bounds
@@ -575,7 +575,7 @@
   From: cairo/libcairo2-dev@1.16.0-5 > glib2.0/libglib2.0-dev@2.66.8-1 > pcre3/libpcre3-dev@2:8.39-13 > pcre3/libpcre16-3@2:8.39-13
   From: pcre3/libpcre32-3@2:8.39-13
   and 6 more...
-  Image layer: Introduced by your base image (php:8.1.13-apache-bullseye)
+  Image layer: Introduced by your base image (php:8.2.0-apache-bullseye)
 
 ✗ Low severity vulnerability found in pcre3/libpcre16-3
   Description: Out-of-bounds Read
@@ -585,35 +585,35 @@
   From: cairo/libcairo2-dev@1.16.0-5 > glib2.0/libglib2.0-dev@2.66.8-1 > pcre3/libpcre3-dev@2:8.39-13 > pcre3/libpcre16-3@2:8.39-13
   From: pcre3/libpcre32-3@2:8.39-13
   and 6 more...
-  Image layer: Introduced by your base image (php:8.1.13-apache-bullseye)
+  Image layer: Introduced by your base image (php:8.2.0-apache-bullseye)
 
 ✗ Low severity vulnerability found in patch
   Description: Release of Invalid Pointer or Reference
   Info: https://security.snyk.io/vuln/SNYK-DEBIAN11-PATCH-2324789
   Introduced through: dpkg/dpkg-dev@1.20.12
   From: dpkg/dpkg-dev@1.20.12 > patch@2.7.6-7
-  Image layer: Introduced by your base image (php:8.1.13-apache-bullseye)
+  Image layer: Introduced by your base image (php:8.2.0-apache-bullseye)
 
 ✗ Low severity vulnerability found in patch
   Description: NULL Pointer Dereference
   Info: https://security.snyk.io/vuln/SNYK-DEBIAN11-PATCH-525129
   Introduced through: dpkg/dpkg-dev@1.20.12
   From: dpkg/dpkg-dev@1.20.12 > patch@2.7.6-7
-  Image layer: Introduced by your base image (php:8.1.13-apache-bullseye)
+  Image layer: Introduced by your base image (php:8.2.0-apache-bullseye)
 
 ✗ Low severity vulnerability found in patch
   Description: Directory Traversal
   Info: https://security.snyk.io/vuln/SNYK-DEBIAN11-PATCH-525153
   Introduced through: dpkg/dpkg-dev@1.20.12
   From: dpkg/dpkg-dev@1.20.12 > patch@2.7.6-7
-  Image layer: Introduced by your base image (php:8.1.13-apache-bullseye)
+  Image layer: Introduced by your base image (php:8.2.0-apache-bullseye)
 
 ✗ Low severity vulnerability found in patch
   Description: Double Free
   Info: https://security.snyk.io/vuln/SNYK-DEBIAN11-PATCH-526305
   Introduced through: dpkg/dpkg-dev@1.20.12
   From: dpkg/dpkg-dev@1.20.12 > patch@2.7.6-7
-  Image layer: Introduced by your base image (php:8.1.13-apache-bullseye)
+  Image layer: Introduced by your base image (php:8.2.0-apache-bullseye)
 
 ✗ Low severity vulnerability found in openssl
   Description: Inadequate Encryption Strength
@@ -621,7 +621,7 @@
   Introduced through: ca-certificates@20210119, meta-common-packages@meta
   From: ca-certificates@20210119 > openssl@1.1.1n-0+deb11u3
   From: meta-common-packages@meta > openssl/libssl1.1@1.1.1n-0+deb11u3
-  Image layer: Introduced by your base image (php:8.1.13-apache-bullseye)
+  Image layer: Introduced by your base image (php:8.2.0-apache-bullseye)
 
 ✗ Low severity vulnerability found in openssl
   Description: Use of a Broken or Risky Cryptographic Algorithm
@@ -629,7 +629,7 @@
   Introduced through: ca-certificates@20210119, meta-common-packages@meta
   From: ca-certificates@20210119 > openssl@1.1.1n-0+deb11u3
   From: meta-common-packages@meta > openssl/libssl1.1@1.1.1n-0+deb11u3
-  Image layer: Introduced by your base image (php:8.1.13-apache-bullseye)
+  Image layer: Introduced by your base image (php:8.2.0-apache-bullseye)
 
 ✗ Low severity vulnerability found in openssl
   Description: Cryptographic Issues
@@ -637,7 +637,7 @@
   Introduced through: ca-certificates@20210119, meta-common-packages@meta
   From: ca-certificates@20210119 > openssl@1.1.1n-0+deb11u3
   From: meta-common-packages@meta > openssl/libssl1.1@1.1.1n-0+deb11u3
-  Image layer: Introduced by your base image (php:8.1.13-apache-bullseye)
+  Image layer: Introduced by your base image (php:8.2.0-apache-bullseye)
 
 ✗ Low severity vulnerability found in openldap/libldap-2.4-2
   Description: Improper Initialization
@@ -857,7 +857,7 @@
   From: imagemagick/libmagickcore-6.q16-6-extra@8:6.9.11.60+dfsg-1.3 > openexr/libopenexr25@2.5.4-2+deb11u1
   From: openexr/libopenexr-dev@2.5.4-2+deb11u1 > openexr/libopenexr25@2.5.4-2+deb11u1
   and 1 more...
-  Image layer: Introduced by your base image (php:8.1.13-apache-bullseye)
+  Image layer: Introduced by your base image (php:8.2.0-apache-bullseye)
 
 ✗ Low severity vulnerability found in openexr/libopenexr25
   Description: Resource Exhaustion
@@ -867,7 +867,7 @@
   From: imagemagick/libmagickcore-6.q16-6-extra@8:6.9.11.60+dfsg-1.3 > openexr/libopenexr25@2.5.4-2+deb11u1
   From: openexr/libopenexr-dev@2.5.4-2+deb11u1 > openexr/libopenexr25@2.5.4-2+deb11u1
   and 1 more...
-  Image layer: Introduced by your base image (php:8.1.13-apache-bullseye)
+  Image layer: Introduced by your base image (php:8.2.0-apache-bullseye)
 
 ✗ Low severity vulnerability found in ncurses/libtinfo6
   Description: Out-of-bounds Write
@@ -877,7 +877,7 @@
   From: bash@5.1-2+deb11u1 > ncurses/libtinfo6@6.2+20201114-2
   From: ncurses/ncurses-bin@6.2+20201114-2 > ncurses/libtinfo6@6.2+20201114-2
   and 11 more...
-  Image layer: Introduced by your base image (php:8.1.13-apache-bullseye)
+  Image layer: Introduced by your base image (php:8.2.0-apache-bullseye)
 
 ✗ Low severity vulnerability found in ncurses/libtinfo6
   Description: Out-of-bounds Read
@@ -887,42 +887,42 @@
   From: bash@5.1-2+deb11u1 > ncurses/libtinfo6@6.2+20201114-2
   From: ncurses/ncurses-bin@6.2+20201114-2 > ncurses/libtinfo6@6.2+20201114-2
   and 11 more...
-  Image layer: Introduced by your base image (php:8.1.13-apache-bullseye)
+  Image layer: Introduced by your base image (php:8.2.0-apache-bullseye)
 
 ✗ Low severity vulnerability found in m4
   Description: CVE-2008-1688
   Info: https://security.snyk.io/vuln/SNYK-DEBIAN11-M4-517010
   Introduced through: autoconf@2.69-14
   From: autoconf@2.69-14 > m4@1.4.18-5
-  Image layer: Introduced by your base image (php:8.1.13-apache-bullseye)
+  Image layer: Introduced by your base image (php:8.2.0-apache-bullseye)
 
 ✗ Low severity vulnerability found in m4
   Description: CVE-2008-1687
   Info: https://security.snyk.io/vuln/SNYK-DEBIAN11-M4-525846
   Introduced through: autoconf@2.69-14
   From: autoconf@2.69-14 > m4@1.4.18-5
-  Image layer: Introduced by your base image (php:8.1.13-apache-bullseye)
+  Image layer: Introduced by your base image (php:8.2.0-apache-bullseye)
 
 ✗ Low severity vulnerability found in lua5.3/liblua5.3-0
   Description: Uncontrolled Recursion
   Info: https://security.snyk.io/vuln/SNYK-DEBIAN11-LUA53-1914008
   Introduced through: apache2@2.4.54-1~deb11u1
   From: apache2@2.4.54-1~deb11u1 > apache2/apache2-bin@2.4.54-1~deb11u1 > lua5.3/liblua5.3-0@5.3.3-1.1+b1
-  Image layer: Introduced by your base image (php:8.1.13-apache-bullseye)
+  Image layer: Introduced by your base image (php:8.2.0-apache-bullseye)
 
 ✗ Low severity vulnerability found in lua5.3/liblua5.3-0
   Description: Use After Free
   Info: https://security.snyk.io/vuln/SNYK-DEBIAN11-LUA53-517140
   Introduced through: apache2@2.4.54-1~deb11u1
   From: apache2@2.4.54-1~deb11u1 > apache2/apache2-bin@2.4.54-1~deb11u1 > lua5.3/liblua5.3-0@5.3.3-1.1+b1
-  Image layer: Introduced by your base image (php:8.1.13-apache-bullseye)
+  Image layer: Introduced by your base image (php:8.2.0-apache-bullseye)
 
 ✗ Low severity vulnerability found in lua5.3/liblua5.3-0
   Description: Integer Underflow
   Info: https://security.snyk.io/vuln/SNYK-DEBIAN11-LUA53-608213
   Introduced through: apache2@2.4.54-1~deb11u1
   From: apache2@2.4.54-1~deb11u1 > apache2/apache2-bin@2.4.54-1~deb11u1 > lua5.3/liblua5.3-0@5.3.3-1.1+b1
-  Image layer: Introduced by your base image (php:8.1.13-apache-bullseye)
+  Image layer: Introduced by your base image (php:8.2.0-apache-bullseye)
 
 ✗ Low severity vulnerability found in libxml2
   Description: Cross-site Scripting (XSS)
@@ -932,7 +932,7 @@
   From: imagemagick/libmagickcore-6.q16-6@8:6.9.11.60+dfsg-1.3 > libxml2@2.9.10+dfsg-6.7+deb11u3
   From: imagemagick/libmagickcore-6.q16-6-extra@8:6.9.11.60+dfsg-1.3 > libxml2@2.9.10+dfsg-6.7+deb11u3
   and 3 more...
-  Image layer: Introduced by your base image (php:8.1.13-apache-bullseye)
+  Image layer: Introduced by your base image (php:8.2.0-apache-bullseye)
 
 ✗ Low severity vulnerability found in libwmf/libwmf0.2-7
   Description: Numeric Errors
@@ -942,7 +942,7 @@
   From: imagemagick/libmagickcore-6.q16-6-extra@8:6.9.11.60+dfsg-1.3 > libwmf/libwmf0.2-7@0.2.8.4-17
   From: libwmf/libwmf-dev@0.2.8.4-17 > libwmf/libwmf0.2-7@0.2.8.4-17
   and 1 more...
-  Image layer: Introduced by your base image (php:8.1.13-apache-bullseye)
+  Image layer: Introduced by your base image (php:8.2.0-apache-bullseye)
 
 ✗ Low severity vulnerability found in libwmf/libwmf0.2-7
   Description: Out-of-Bounds
@@ -952,7 +952,7 @@
   From: imagemagick/libmagickcore-6.q16-6-extra@8:6.9.11.60+dfsg-1.3 > libwmf/libwmf0.2-7@0.2.8.4-17
   From: libwmf/libwmf-dev@0.2.8.4-17 > libwmf/libwmf0.2-7@0.2.8.4-17
   and 1 more...
-  Image layer: Introduced by your base image (php:8.1.13-apache-bullseye)
+  Image layer: Introduced by your base image (php:8.2.0-apache-bullseye)
 
 ✗ Low severity vulnerability found in libwmf/libwmf0.2-7
   Description: Resource Management Errors
@@ -962,7 +962,7 @@
   From: imagemagick/libmagickcore-6.q16-6-extra@8:6.9.11.60+dfsg-1.3 > libwmf/libwmf0.2-7@0.2.8.4-17
   From: libwmf/libwmf-dev@0.2.8.4-17 > libwmf/libwmf0.2-7@0.2.8.4-17
   and 1 more...
-  Image layer: Introduced by your base image (php:8.1.13-apache-bullseye)
+  Image layer: Introduced by your base image (php:8.2.0-apache-bullseye)
 
 ✗ Low severity vulnerability found in libwmf/libwmf0.2-7
   Description: Numeric Errors
@@ -972,7 +972,7 @@
   From: imagemagick/libmagickcore-6.q16-6-extra@8:6.9.11.60+dfsg-1.3 > libwmf/libwmf0.2-7@0.2.8.4-17
   From: libwmf/libwmf-dev@0.2.8.4-17 > libwmf/libwmf0.2-7@0.2.8.4-17
   and 1 more...
-  Image layer: Introduced by your base image (php:8.1.13-apache-bullseye)
+  Image layer: Introduced by your base image (php:8.2.0-apache-bullseye)
 
 ✗ Low severity vulnerability found in libwebp/libwebp6
   Description: Integer Overflow or Wraparound
@@ -992,7 +992,7 @@
   From: adduser@3.118 > shadow/passwd@1:4.8.1-1 > libsemanage/libsemanage1@3.1-1+b2 > libsepol/libsepol1@3.1-1
   From: cairo/libcairo2-dev@1.16.0-5 > glib2.0/libglib2.0-dev@2.66.8-1 > util-linux/libmount-dev@2.36.1-8+deb11u1 > libselinux/libselinux1-dev@3.1-3 > libsepol/libsepol1-dev@3.1-1 > libsepol/libsepol1@3.1-1
   and 2 more...
-  Image layer: Introduced by your base image (php:8.1.13-apache-bullseye)
+  Image layer: Introduced by your base image (php:8.2.0-apache-bullseye)
 
 ✗ Low severity vulnerability found in libsepol/libsepol1
   Description: Out-of-bounds Read
@@ -1002,7 +1002,7 @@
   From: adduser@3.118 > shadow/passwd@1:4.8.1-1 > libsemanage/libsemanage1@3.1-1+b2 > libsepol/libsepol1@3.1-1
   From: cairo/libcairo2-dev@1.16.0-5 > glib2.0/libglib2.0-dev@2.66.8-1 > util-linux/libmount-dev@2.36.1-8+deb11u1 > libselinux/libselinux1-dev@3.1-3 > libsepol/libsepol1-dev@3.1-1 > libsepol/libsepol1@3.1-1
   and 2 more...
-  Image layer: Introduced by your base image (php:8.1.13-apache-bullseye)
+  Image layer: Introduced by your base image (php:8.2.0-apache-bullseye)
 
 ✗ Low severity vulnerability found in libsepol/libsepol1
   Description: Use After Free
@@ -1012,7 +1012,7 @@
   From: adduser@3.118 > shadow/passwd@1:4.8.1-1 > libsemanage/libsemanage1@3.1-1+b2 > libsepol/libsepol1@3.1-1
   From: cairo/libcairo2-dev@1.16.0-5 > glib2.0/libglib2.0-dev@2.66.8-1 > util-linux/libmount-dev@2.36.1-8+deb11u1 > libselinux/libselinux1-dev@3.1-3 > libsepol/libsepol1-dev@3.1-1 > libsepol/libsepol1@3.1-1
   and 2 more...
-  Image layer: Introduced by your base image (php:8.1.13-apache-bullseye)
+  Image layer: Introduced by your base image (php:8.2.0-apache-bullseye)
 
 ✗ Low severity vulnerability found in libsepol/libsepol1
   Description: Use After Free
@@ -1022,7 +1022,7 @@
   From: adduser@3.118 > shadow/passwd@1:4.8.1-1 > libsemanage/libsemanage1@3.1-1+b2 > libsepol/libsepol1@3.1-1
   From: cairo/libcairo2-dev@1.16.0-5 > glib2.0/libglib2.0-dev@2.66.8-1 > util-linux/libmount-dev@2.36.1-8+deb11u1 > libselinux/libselinux1-dev@3.1-3 > libsepol/libsepol1-dev@3.1-1 > libsepol/libsepol1@3.1-1
   and 2 more...
-  Image layer: Introduced by your base image (php:8.1.13-apache-bullseye)
+  Image layer: Introduced by your base image (php:8.2.0-apache-bullseye)
 
 ✗ Low severity vulnerability found in libpng1.6/libpng-dev
   Description: Buffer Overflow
@@ -1032,7 +1032,7 @@
   From: cairo/libcairo2-dev@1.16.0-5 > libpng1.6/libpng-dev@1.6.37-3
   From: gdk-pixbuf/libgdk-pixbuf-2.0-dev@2.42.2+dfsg-1+deb11u1 > libpng1.6/libpng-dev@1.6.37-3
   and 2 more...
-  Image layer: Introduced by your base image (php:8.1.13-apache-bullseye)
+  Image layer: Introduced by your base image (php:8.2.0-apache-bullseye)
 
 ✗ Low severity vulnerability found in libpng1.6/libpng-dev
   Description: Memory Leak
@@ -1042,7 +1042,7 @@
   From: cairo/libcairo2-dev@1.16.0-5 > libpng1.6/libpng-dev@1.6.37-3
   From: gdk-pixbuf/libgdk-pixbuf-2.0-dev@2.42.2+dfsg-1+deb11u1 > libpng1.6/libpng-dev@1.6.37-3
   and 2 more...
-  Image layer: Introduced by your base image (php:8.1.13-apache-bullseye)
+  Image layer: Introduced by your base image (php:8.2.0-apache-bullseye)
 
 ✗ Low severity vulnerability found in libjpeg-turbo/libjpeg62-turbo
   Description: Out-of-bounds Write
@@ -1060,7 +1060,7 @@
   Introduced through: libheif/libheif1@1.11.0-1, imagemagick/libmagickcore-6.q16-6@8:6.9.11.60+dfsg-1.3
   From: libheif/libheif1@1.11.0-1
   From: imagemagick/libmagickcore-6.q16-6@8:6.9.11.60+dfsg-1.3 > libheif/libheif1@1.11.0-1
-  Image layer: Introduced by your base image (php:8.1.13-apache-bullseye)
+  Image layer: Introduced by your base image (php:8.2.0-apache-bullseye)
 
 ✗ Low severity vulnerability found in libgcrypt20
   Description: Information Exposure
@@ -1070,7 +1070,7 @@
   From: apt@2.2.4 > apt/libapt-pkg6.0@2.2.4 > libgcrypt20@1.8.7-6
   From: apt@2.2.4 > gnupg2/gpgv@2.2.27-2+deb11u2 > libgcrypt20@1.8.7-6
   and 2 more...
-  Image layer: Introduced by your base image (php:8.1.13-apache-bullseye)
+  Image layer: Introduced by your base image (php:8.2.0-apache-bullseye)
 
 ✗ Low severity vulnerability found in libgcrypt20
   Description: Use of a Broken or Risky Cryptographic Algorithm
@@ -1080,7 +1080,7 @@
   From: apt@2.2.4 > apt/libapt-pkg6.0@2.2.4 > libgcrypt20@1.8.7-6
   From: apt@2.2.4 > gnupg2/gpgv@2.2.27-2+deb11u2 > libgcrypt20@1.8.7-6
   and 2 more...
-  Image layer: Introduced by your base image (php:8.1.13-apache-bullseye)
+  Image layer: Introduced by your base image (php:8.2.0-apache-bullseye)
 
 ✗ Low severity vulnerability found in libde265/libde265-0
   Description: CVE-2020-21605
@@ -1088,7 +1088,7 @@
   Introduced through: libde265/libde265-0@1.0.8-1, libheif/libheif1@1.11.0-1
   From: libde265/libde265-0@1.0.8-1
   From: libheif/libheif1@1.11.0-1 > libde265/libde265-0@1.0.8-1
-  Image layer: Introduced by your base image (php:8.1.13-apache-bullseye)
+  Image layer: Introduced by your base image (php:8.2.0-apache-bullseye)
 
 ✗ Low severity vulnerability found in libde265/libde265-0
   Description: Out-of-bounds Write
@@ -1096,7 +1096,7 @@
   Introduced through: libde265/libde265-0@1.0.8-1, libheif/libheif1@1.11.0-1
   From: libde265/libde265-0@1.0.8-1
   From: libheif/libheif1@1.11.0-1 > libde265/libde265-0@1.0.8-1
-  Image layer: Introduced by your base image (php:8.1.13-apache-bullseye)
+  Image layer: Introduced by your base image (php:8.2.0-apache-bullseye)
 
 ✗ Low severity vulnerability found in libde265/libde265-0
   Description: Out-of-bounds Write
@@ -1104,7 +1104,7 @@
   Introduced through: libde265/libde265-0@1.0.8-1, libheif/libheif1@1.11.0-1
   From: libde265/libde265-0@1.0.8-1
   From: libheif/libheif1@1.11.0-1 > libde265/libde265-0@1.0.8-1
-  Image layer: Introduced by your base image (php:8.1.13-apache-bullseye)
+  Image layer: Introduced by your base image (php:8.2.0-apache-bullseye)
 
 ✗ Low severity vulnerability found in libde265/libde265-0
   Description: Out-of-bounds Write
@@ -1112,7 +1112,7 @@
   Introduced through: libde265/libde265-0@1.0.8-1, libheif/libheif1@1.11.0-1
   From: libde265/libde265-0@1.0.8-1
   From: libheif/libheif1@1.11.0-1 > libde265/libde265-0@1.0.8-1
-  Image layer: Introduced by your base image (php:8.1.13-apache-bullseye)
+  Image layer: Introduced by your base image (php:8.2.0-apache-bullseye)
 
 ✗ Low severity vulnerability found in libde265/libde265-0
   Description: Out-of-bounds Write
@@ -1120,7 +1120,7 @@
   Introduced through: libde265/libde265-0@1.0.8-1, libheif/libheif1@1.11.0-1
   From: libde265/libde265-0@1.0.8-1
   From: libheif/libheif1@1.11.0-1 > libde265/libde265-0@1.0.8-1
-  Image layer: Introduced by your base image (php:8.1.13-apache-bullseye)
+  Image layer: Introduced by your base image (php:8.2.0-apache-bullseye)
 
 ✗ Low severity vulnerability found in libde265/libde265-0
   Description: Out-of-bounds Write
@@ -1128,7 +1128,7 @@
   Introduced through: libde265/libde265-0@1.0.8-1, libheif/libheif1@1.11.0-1
   From: libde265/libde265-0@1.0.8-1
   From: libheif/libheif1@1.11.0-1 > libde265/libde265-0@1.0.8-1
-  Image layer: Introduced by your base image (php:8.1.13-apache-bullseye)
+  Image layer: Introduced by your base image (php:8.2.0-apache-bullseye)
 
 ✗ Low severity vulnerability found in libde265/libde265-0
   Description: Out-of-bounds Write
@@ -1136,7 +1136,7 @@
   Introduced through: libde265/libde265-0@1.0.8-1, libheif/libheif1@1.11.0-1
   From: libde265/libde265-0@1.0.8-1
   From: libheif/libheif1@1.11.0-1 > libde265/libde265-0@1.0.8-1
-  Image layer: Introduced by your base image (php:8.1.13-apache-bullseye)
+  Image layer: Introduced by your base image (php:8.2.0-apache-bullseye)
 
 ✗ Low severity vulnerability found in libde265/libde265-0
   Description: Out-of-bounds Write
@@ -1144,7 +1144,7 @@
   Introduced through: libde265/libde265-0@1.0.8-1, libheif/libheif1@1.11.0-1
   From: libde265/libde265-0@1.0.8-1
   From: libheif/libheif1@1.11.0-1 > libde265/libde265-0@1.0.8-1
-  Image layer: Introduced by your base image (php:8.1.13-apache-bullseye)
+  Image layer: Introduced by your base image (php:8.2.0-apache-bullseye)
 
 ✗ Low severity vulnerability found in libde265/libde265-0
   Description: Out-of-bounds Write
@@ -1152,7 +1152,7 @@
   Introduced through: libde265/libde265-0@1.0.8-1, libheif/libheif1@1.11.0-1
   From: libde265/libde265-0@1.0.8-1
   From: libheif/libheif1@1.11.0-1 > libde265/libde265-0@1.0.8-1
-  Image layer: Introduced by your base image (php:8.1.13-apache-bullseye)
+  Image layer: Introduced by your base image (php:8.2.0-apache-bullseye)
 
 ✗ Low severity vulnerability found in libde265/libde265-0
   Description: Out-of-bounds Write
@@ -1160,7 +1160,7 @@
   Introduced through: libde265/libde265-0@1.0.8-1, libheif/libheif1@1.11.0-1
   From: libde265/libde265-0@1.0.8-1
   From: libheif/libheif1@1.11.0-1 > libde265/libde265-0@1.0.8-1
-  Image layer: Introduced by your base image (php:8.1.13-apache-bullseye)
+  Image layer: Introduced by your base image (php:8.2.0-apache-bullseye)
 
 ✗ Low severity vulnerability found in libde265/libde265-0
   Description: Buffer Overflow
@@ -1168,7 +1168,7 @@
   Introduced through: libde265/libde265-0@1.0.8-1, libheif/libheif1@1.11.0-1
   From: libde265/libde265-0@1.0.8-1
   From: libheif/libheif1@1.11.0-1 > libde265/libde265-0@1.0.8-1
-  Image layer: Introduced by your base image (php:8.1.13-apache-bullseye)
+  Image layer: Introduced by your base image (php:8.2.0-apache-bullseye)
 
 ✗ Low severity vulnerability found in libde265/libde265-0
   Description: Out-of-bounds Write
@@ -1176,7 +1176,7 @@
   Introduced through: libde265/libde265-0@1.0.8-1, libheif/libheif1@1.11.0-1
   From: libde265/libde265-0@1.0.8-1
   From: libheif/libheif1@1.11.0-1 > libde265/libde265-0@1.0.8-1
-  Image layer: Introduced by your base image (php:8.1.13-apache-bullseye)
+  Image layer: Introduced by your base image (php:8.2.0-apache-bullseye)
 
 ✗ Low severity vulnerability found in libde265/libde265-0
   Description: Out-of-bounds Write
@@ -1184,7 +1184,7 @@
   Introduced through: libde265/libde265-0@1.0.8-1, libheif/libheif1@1.11.0-1
   From: libde265/libde265-0@1.0.8-1
   From: libheif/libheif1@1.11.0-1 > libde265/libde265-0@1.0.8-1
-  Image layer: Introduced by your base image (php:8.1.13-apache-bullseye)
+  Image layer: Introduced by your base image (php:8.2.0-apache-bullseye)
 
 ✗ Low severity vulnerability found in libde265/libde265-0
   Description: Use After Free
@@ -1192,7 +1192,7 @@
   Introduced through: libde265/libde265-0@1.0.8-1, libheif/libheif1@1.11.0-1
   From: libde265/libde265-0@1.0.8-1
   From: libheif/libheif1@1.11.0-1 > libde265/libde265-0@1.0.8-1
-  Image layer: Introduced by your base image (php:8.1.13-apache-bullseye)
+  Image layer: Introduced by your base image (php:8.2.0-apache-bullseye)
 
 ✗ Low severity vulnerability found in libde265/libde265-0
   Description: Reachable Assertion
@@ -1200,7 +1200,7 @@
   Introduced through: libde265/libde265-0@1.0.8-1, libheif/libheif1@1.11.0-1
   From: libde265/libde265-0@1.0.8-1
   From: libheif/libheif1@1.11.0-1 > libde265/libde265-0@1.0.8-1
-  Image layer: Introduced by your base image (php:8.1.13-apache-bullseye)
+  Image layer: Introduced by your base image (php:8.2.0-apache-bullseye)
 
 ✗ Low severity vulnerability found in libde265/libde265-0
   Description: Out-of-bounds Write
@@ -1208,7 +1208,7 @@
   Introduced through: libde265/libde265-0@1.0.8-1, libheif/libheif1@1.11.0-1
   From: libde265/libde265-0@1.0.8-1
   From: libheif/libheif1@1.11.0-1 > libde265/libde265-0@1.0.8-1
-  Image layer: Introduced by your base image (php:8.1.13-apache-bullseye)
+  Image layer: Introduced by your base image (php:8.2.0-apache-bullseye)
 
 ✗ Low severity vulnerability found in libde265/libde265-0
   Description: CVE-2021-36411
@@ -1216,7 +1216,7 @@
   Introduced through: libde265/libde265-0@1.0.8-1, libheif/libheif1@1.11.0-1
   From: libde265/libde265-0@1.0.8-1
   From: libheif/libheif1@1.11.0-1 > libde265/libde265-0@1.0.8-1
-  Image layer: Introduced by your base image (php:8.1.13-apache-bullseye)
+  Image layer: Introduced by your base image (php:8.2.0-apache-bullseye)
 
 ✗ Low severity vulnerability found in libde265/libde265-0
   Description: CVE-2021-35452
@@ -1224,7 +1224,7 @@
   Introduced through: libde265/libde265-0@1.0.8-1, libheif/libheif1@1.11.0-1
   From: libde265/libde265-0@1.0.8-1
   From: libheif/libheif1@1.11.0-1 > libde265/libde265-0@1.0.8-1
-  Image layer: Introduced by your base image (php:8.1.13-apache-bullseye)
+  Image layer: Introduced by your base image (php:8.2.0-apache-bullseye)
 
 ✗ Low severity vulnerability found in libde265/libde265-0
   Description: Out-of-bounds Write
@@ -1232,7 +1232,7 @@
   Introduced through: libde265/libde265-0@1.0.8-1, libheif/libheif1@1.11.0-1
   From: libde265/libde265-0@1.0.8-1
   From: libheif/libheif1@1.11.0-1 > libde265/libde265-0@1.0.8-1
-  Image layer: Introduced by your base image (php:8.1.13-apache-bullseye)
+  Image layer: Introduced by your base image (php:8.2.0-apache-bullseye)
 
 ✗ Low severity vulnerability found in krb5/libgssapi-krb5-2
   Description: CVE-2004-0971
@@ -1242,7 +1242,7 @@
   From: meta-common-packages@meta > krb5/libk5crypto3@1.18.3-6+deb11u3
   From: meta-common-packages@meta > krb5/libkrb5-3@1.18.3-6+deb11u3
   and 1 more...
-  Image layer: Introduced by your base image (php:8.1.13-apache-bullseye)
+  Image layer: Introduced by your base image (php:8.2.0-apache-bullseye)
 
 ✗ Low severity vulnerability found in krb5/libgssapi-krb5-2
   Description: Integer Overflow or Wraparound
@@ -1252,7 +1252,7 @@
   From: meta-common-packages@meta > krb5/libk5crypto3@1.18.3-6+deb11u3
   From: meta-common-packages@meta > krb5/libkrb5-3@1.18.3-6+deb11u3
   and 1 more...
-  Image layer: Introduced by your base image (php:8.1.13-apache-bullseye)
+  Image layer: Introduced by your base image (php:8.2.0-apache-bullseye)
 
 ✗ Low severity vulnerability found in jbigkit/libjbig0
   Description: Out-of-Bounds
@@ -1269,7 +1269,7 @@
   Info: https://security.snyk.io/vuln/SNYK-DEBIAN11-JANSSON-1264524
   Introduced through: apache2@2.4.54-1~deb11u1
   From: apache2@2.4.54-1~deb11u1 > apache2/apache2-bin@2.4.54-1~deb11u1 > jansson/libjansson4@2.13.1-1.1
-  Image layer: Introduced by your base image (php:8.1.13-apache-bullseye)
+  Image layer: Introduced by your base image (php:8.2.0-apache-bullseye)
 
 ✗ Low severity vulnerability found in imagemagick/imagemagick-6-common
   Description: Divide By Zero
@@ -1279,7 +1279,7 @@
   From: imagemagick/libmagickcore-6-arch-config@8:6.9.11.60+dfsg-1.3 > imagemagick/imagemagick-6-common@8:6.9.11.60+dfsg-1.3
   From: imagemagick/libmagickcore-6.q16-6@8:6.9.11.60+dfsg-1.3 > imagemagick/imagemagick-6-common@8:6.9.11.60+dfsg-1.3
   and 14 more...
-  Image layer: Introduced by your base image (php:8.1.13-apache-bullseye)
+  Image layer: Introduced by your base image (php:8.2.0-apache-bullseye)
 
 ✗ Low severity vulnerability found in imagemagick/imagemagick-6-common
   Description: Divide By Zero
@@ -1289,7 +1289,7 @@
   From: imagemagick/libmagickcore-6-arch-config@8:6.9.11.60+dfsg-1.3 > imagemagick/imagemagick-6-common@8:6.9.11.60+dfsg-1.3
   From: imagemagick/libmagickcore-6.q16-6@8:6.9.11.60+dfsg-1.3 > imagemagick/imagemagick-6-common@8:6.9.11.60+dfsg-1.3
   and 14 more...
-  Image layer: Introduced by your base image (php:8.1.13-apache-bullseye)
+  Image layer: Introduced by your base image (php:8.2.0-apache-bullseye)
 
 ✗ Low severity vulnerability found in imagemagick/imagemagick-6-common
   Description: Divide By Zero
@@ -1299,7 +1299,7 @@
   From: imagemagick/libmagickcore-6-arch-config@8:6.9.11.60+dfsg-1.3 > imagemagick/imagemagick-6-common@8:6.9.11.60+dfsg-1.3
   From: imagemagick/libmagickcore-6.q16-6@8:6.9.11.60+dfsg-1.3 > imagemagick/imagemagick-6-common@8:6.9.11.60+dfsg-1.3
   and 14 more...
-  Image layer: Introduced by your base image (php:8.1.13-apache-bullseye)
+  Image layer: Introduced by your base image (php:8.2.0-apache-bullseye)
 
 ✗ Low severity vulnerability found in imagemagick/imagemagick-6-common
   Description: Divide By Zero
@@ -1309,7 +1309,7 @@
   From: imagemagick/libmagickcore-6-arch-config@8:6.9.11.60+dfsg-1.3 > imagemagick/imagemagick-6-common@8:6.9.11.60+dfsg-1.3
   From: imagemagick/libmagickcore-6.q16-6@8:6.9.11.60+dfsg-1.3 > imagemagick/imagemagick-6-common@8:6.9.11.60+dfsg-1.3
   and 14 more...
-  Image layer: Introduced by your base image (php:8.1.13-apache-bullseye)
+  Image layer: Introduced by your base image (php:8.2.0-apache-bullseye)
 
 ✗ Low severity vulnerability found in imagemagick/imagemagick-6-common
   Description: Divide By Zero
@@ -1319,7 +1319,7 @@
   From: imagemagick/libmagickcore-6-arch-config@8:6.9.11.60+dfsg-1.3 > imagemagick/imagemagick-6-common@8:6.9.11.60+dfsg-1.3
   From: imagemagick/libmagickcore-6.q16-6@8:6.9.11.60+dfsg-1.3 > imagemagick/imagemagick-6-common@8:6.9.11.60+dfsg-1.3
   and 14 more...
-  Image layer: Introduced by your base image (php:8.1.13-apache-bullseye)
+  Image layer: Introduced by your base image (php:8.2.0-apache-bullseye)
 
 ✗ Low severity vulnerability found in imagemagick/imagemagick-6-common
   Description: Divide By Zero
@@ -1329,7 +1329,7 @@
   From: imagemagick/libmagickcore-6-arch-config@8:6.9.11.60+dfsg-1.3 > imagemagick/imagemagick-6-common@8:6.9.11.60+dfsg-1.3
   From: imagemagick/libmagickcore-6.q16-6@8:6.9.11.60+dfsg-1.3 > imagemagick/imagemagick-6-common@8:6.9.11.60+dfsg-1.3
   and 14 more...
-  Image layer: Introduced by your base image (php:8.1.13-apache-bullseye)
+  Image layer: Introduced by your base image (php:8.2.0-apache-bullseye)
 
 ✗ Low severity vulnerability found in imagemagick/imagemagick-6-common
   Description: Integer Overflow or Wraparound
@@ -1339,7 +1339,7 @@
   From: imagemagick/libmagickcore-6-arch-config@8:6.9.11.60+dfsg-1.3 > imagemagick/imagemagick-6-common@8:6.9.11.60+dfsg-1.3
   From: imagemagick/libmagickcore-6.q16-6@8:6.9.11.60+dfsg-1.3 > imagemagick/imagemagick-6-common@8:6.9.11.60+dfsg-1.3
   and 14 more...
-  Image layer: Introduced by your base image (php:8.1.13-apache-bullseye)
+  Image layer: Introduced by your base image (php:8.2.0-apache-bullseye)
 
 ✗ Low severity vulnerability found in imagemagick/imagemagick-6-common
   Description: CVE-2021-20313
@@ -1349,7 +1349,7 @@
   From: imagemagick/libmagickcore-6-arch-config@8:6.9.11.60+dfsg-1.3 > imagemagick/imagemagick-6-common@8:6.9.11.60+dfsg-1.3
   From: imagemagick/libmagickcore-6.q16-6@8:6.9.11.60+dfsg-1.3 > imagemagick/imagemagick-6-common@8:6.9.11.60+dfsg-1.3
   and 14 more...
-  Image layer: Introduced by your base image (php:8.1.13-apache-bullseye)
+  Image layer: Introduced by your base image (php:8.2.0-apache-bullseye)
 
 ✗ Low severity vulnerability found in imagemagick/imagemagick-6-common
   Description: Divide By Zero
@@ -1359,7 +1359,7 @@
   From: imagemagick/libmagickcore-6-arch-config@8:6.9.11.60+dfsg-1.3 > imagemagick/imagemagick-6-common@8:6.9.11.60+dfsg-1.3
   From: imagemagick/libmagickcore-6.q16-6@8:6.9.11.60+dfsg-1.3 > imagemagick/imagemagick-6-common@8:6.9.11.60+dfsg-1.3
   and 14 more...
-  Image layer: Introduced by your base image (php:8.1.13-apache-bullseye)
+  Image layer: Introduced by your base image (php:8.2.0-apache-bullseye)
 
 ✗ Low severity vulnerability found in imagemagick/imagemagick-6-common
   Description: Race Condition
@@ -1369,7 +1369,7 @@
   From: imagemagick/libmagickcore-6-arch-config@8:6.9.11.60+dfsg-1.3 > imagemagick/imagemagick-6-common@8:6.9.11.60+dfsg-1.3
   From: imagemagick/libmagickcore-6.q16-6@8:6.9.11.60+dfsg-1.3 > imagemagick/imagemagick-6-common@8:6.9.11.60+dfsg-1.3
   and 14 more...
-  Image layer: Introduced by your base image (php:8.1.13-apache-bullseye)
+  Image layer: Introduced by your base image (php:8.2.0-apache-bullseye)
 
 ✗ Low severity vulnerability found in imagemagick/imagemagick-6-common
   Description: Improper Input Validation
@@ -1379,7 +1379,7 @@
   From: imagemagick/libmagickcore-6-arch-config@8:6.9.11.60+dfsg-1.3 > imagemagick/imagemagick-6-common@8:6.9.11.60+dfsg-1.3
   From: imagemagick/libmagickcore-6.q16-6@8:6.9.11.60+dfsg-1.3 > imagemagick/imagemagick-6-common@8:6.9.11.60+dfsg-1.3
   and 14 more...
-  Image layer: Introduced by your base image (php:8.1.13-apache-bullseye)
+  Image layer: Introduced by your base image (php:8.2.0-apache-bullseye)
 
 ✗ Low severity vulnerability found in imagemagick/imagemagick-6-common
   Description: Use After Free
@@ -1389,7 +1389,7 @@
   From: imagemagick/libmagickcore-6-arch-config@8:6.9.11.60+dfsg-1.3 > imagemagick/imagemagick-6-common@8:6.9.11.60+dfsg-1.3
   From: imagemagick/libmagickcore-6.q16-6@8:6.9.11.60+dfsg-1.3 > imagemagick/imagemagick-6-common@8:6.9.11.60+dfsg-1.3
   and 14 more...
-  Image layer: Introduced by your base image (php:8.1.13-apache-bullseye)
+  Image layer: Introduced by your base image (php:8.2.0-apache-bullseye)
 
 ✗ Low severity vulnerability found in imagemagick/imagemagick-6-common
   Description: Out-of-bounds Write
@@ -1399,7 +1399,7 @@
   From: imagemagick/libmagickcore-6-arch-config@8:6.9.11.60+dfsg-1.3 > imagemagick/imagemagick-6-common@8:6.9.11.60+dfsg-1.3
   From: imagemagick/libmagickcore-6.q16-6@8:6.9.11.60+dfsg-1.3 > imagemagick/imagemagick-6-common@8:6.9.11.60+dfsg-1.3
   and 14 more...
-  Image layer: Introduced by your base image (php:8.1.13-apache-bullseye)
+  Image layer: Introduced by your base image (php:8.2.0-apache-bullseye)
 
 ✗ Low severity vulnerability found in imagemagick/imagemagick-6-common
   Description: Buffer Overflow
@@ -1409,7 +1409,7 @@
   From: imagemagick/libmagickcore-6-arch-config@8:6.9.11.60+dfsg-1.3 > imagemagick/imagemagick-6-common@8:6.9.11.60+dfsg-1.3
   From: imagemagick/libmagickcore-6.q16-6@8:6.9.11.60+dfsg-1.3 > imagemagick/imagemagick-6-common@8:6.9.11.60+dfsg-1.3
   and 14 more...
-  Image layer: Introduced by your base image (php:8.1.13-apache-bullseye)
+  Image layer: Introduced by your base image (php:8.2.0-apache-bullseye)
 
 ✗ Low severity vulnerability found in imagemagick/imagemagick-6-common
   Description: Integer Overflow or Wraparound
@@ -1419,7 +1419,7 @@
   From: imagemagick/libmagickcore-6-arch-config@8:6.9.11.60+dfsg-1.3 > imagemagick/imagemagick-6-common@8:6.9.11.60+dfsg-1.3
   From: imagemagick/libmagickcore-6.q16-6@8:6.9.11.60+dfsg-1.3 > imagemagick/imagemagick-6-common@8:6.9.11.60+dfsg-1.3
   and 14 more...
-  Image layer: Introduced by your base image (php:8.1.13-apache-bullseye)
+  Image layer: Introduced by your base image (php:8.2.0-apache-bullseye)
 
 ✗ Low severity vulnerability found in imagemagick/imagemagick-6-common
   Description: Integer Overflow or Wraparound
@@ -1429,7 +1429,7 @@
   From: imagemagick/libmagickcore-6-arch-config@8:6.9.11.60+dfsg-1.3 > imagemagick/imagemagick-6-common@8:6.9.11.60+dfsg-1.3
   From: imagemagick/libmagickcore-6.q16-6@8:6.9.11.60+dfsg-1.3 > imagemagick/imagemagick-6-common@8:6.9.11.60+dfsg-1.3
   and 14 more...
-  Image layer: Introduced by your base image (php:8.1.13-apache-bullseye)
+  Image layer: Introduced by your base image (php:8.2.0-apache-bullseye)
 
 ✗ Low severity vulnerability found in imagemagick/imagemagick-6-common
   Description: Incorrect Type Conversion or Cast
@@ -1439,7 +1439,7 @@
   From: imagemagick/libmagickcore-6-arch-config@8:6.9.11.60+dfsg-1.3 > imagemagick/imagemagick-6-common@8:6.9.11.60+dfsg-1.3
   From: imagemagick/libmagickcore-6.q16-6@8:6.9.11.60+dfsg-1.3 > imagemagick/imagemagick-6-common@8:6.9.11.60+dfsg-1.3
   and 14 more...
-  Image layer: Introduced by your base image (php:8.1.13-apache-bullseye)
+  Image layer: Introduced by your base image (php:8.2.0-apache-bullseye)
 
 ✗ Low severity vulnerability found in imagemagick/imagemagick-6-common
   Description: Memory Leak
@@ -1449,7 +1449,7 @@
   From: imagemagick/libmagickcore-6-arch-config@8:6.9.11.60+dfsg-1.3 > imagemagick/imagemagick-6-common@8:6.9.11.60+dfsg-1.3
   From: imagemagick/libmagickcore-6.q16-6@8:6.9.11.60+dfsg-1.3 > imagemagick/imagemagick-6-common@8:6.9.11.60+dfsg-1.3
   and 14 more...
-  Image layer: Introduced by your base image (php:8.1.13-apache-bullseye)
+  Image layer: Introduced by your base image (php:8.2.0-apache-bullseye)
 
 ✗ Low severity vulnerability found in imagemagick/imagemagick-6-common
   Description: Out-of-bounds Write
@@ -1459,7 +1459,7 @@
   From: imagemagick/libmagickcore-6-arch-config@8:6.9.11.60+dfsg-1.3 > imagemagick/imagemagick-6-common@8:6.9.11.60+dfsg-1.3
   From: imagemagick/libmagickcore-6.q16-6@8:6.9.11.60+dfsg-1.3 > imagemagick/imagemagick-6-common@8:6.9.11.60+dfsg-1.3
   and 14 more...
-  Image layer: Introduced by your base image (php:8.1.13-apache-bullseye)
+  Image layer: Introduced by your base image (php:8.2.0-apache-bullseye)
 
 ✗ Low severity vulnerability found in imagemagick/imagemagick-6-common
   Description: CVE-2005-0406
@@ -1469,7 +1469,7 @@
   From: imagemagick/libmagickcore-6-arch-config@8:6.9.11.60+dfsg-1.3 > imagemagick/imagemagick-6-common@8:6.9.11.60+dfsg-1.3
   From: imagemagick/libmagickcore-6.q16-6@8:6.9.11.60+dfsg-1.3 > imagemagick/imagemagick-6-common@8:6.9.11.60+dfsg-1.3
   and 14 more...
-  Image layer: Introduced by your base image (php:8.1.13-apache-bullseye)
+  Image layer: Introduced by your base image (php:8.2.0-apache-bullseye)
 
 ✗ Low severity vulnerability found in imagemagick/imagemagick-6-common
   Description: Resource Management Errors
@@ -1479,7 +1479,7 @@
   From: imagemagick/libmagickcore-6-arch-config@8:6.9.11.60+dfsg-1.3 > imagemagick/imagemagick-6-common@8:6.9.11.60+dfsg-1.3
   From: imagemagick/libmagickcore-6.q16-6@8:6.9.11.60+dfsg-1.3 > imagemagick/imagemagick-6-common@8:6.9.11.60+dfsg-1.3
   and 14 more...
-  Image layer: Introduced by your base image (php:8.1.13-apache-bullseye)
+  Image layer: Introduced by your base image (php:8.2.0-apache-bullseye)
 
 ✗ Low severity vulnerability found in imagemagick/imagemagick-6-common
   Description: Missing Release of Resource after Effective Lifetime
@@ -1489,7 +1489,7 @@
   From: imagemagick/libmagickcore-6-arch-config@8:6.9.11.60+dfsg-1.3 > imagemagick/imagemagick-6-common@8:6.9.11.60+dfsg-1.3
   From: imagemagick/libmagickcore-6.q16-6@8:6.9.11.60+dfsg-1.3 > imagemagick/imagemagick-6-common@8:6.9.11.60+dfsg-1.3
   and 14 more...
-  Image layer: Introduced by your base image (php:8.1.13-apache-bullseye)
+  Image layer: Introduced by your base image (php:8.2.0-apache-bullseye)
 
 ✗ Low severity vulnerability found in imagemagick/imagemagick-6-common
   Description: Resource Exhaustion
@@ -1499,7 +1499,7 @@
   From: imagemagick/libmagickcore-6-arch-config@8:6.9.11.60+dfsg-1.3 > imagemagick/imagemagick-6-common@8:6.9.11.60+dfsg-1.3
   From: imagemagick/libmagickcore-6.q16-6@8:6.9.11.60+dfsg-1.3 > imagemagick/imagemagick-6-common@8:6.9.11.60+dfsg-1.3
   and 14 more...
-  Image layer: Introduced by your base image (php:8.1.13-apache-bullseye)
+  Image layer: Introduced by your base image (php:8.2.0-apache-bullseye)
 
 ✗ Low severity vulnerability found in imagemagick/imagemagick-6-common
   Description: Missing Release of Resource after Effective Lifetime
@@ -1509,7 +1509,7 @@
   From: imagemagick/libmagickcore-6-arch-config@8:6.9.11.60+dfsg-1.3 > imagemagick/imagemagick-6-common@8:6.9.11.60+dfsg-1.3
   From: imagemagick/libmagickcore-6.q16-6@8:6.9.11.60+dfsg-1.3 > imagemagick/imagemagick-6-common@8:6.9.11.60+dfsg-1.3
   and 14 more...
-  Image layer: Introduced by your base image (php:8.1.13-apache-bullseye)
+  Image layer: Introduced by your base image (php:8.2.0-apache-bullseye)
 
 ✗ Low severity vulnerability found in imagemagick/imagemagick-6-common
   Description: Out-of-Bounds
@@ -1519,7 +1519,7 @@
   From: imagemagick/libmagickcore-6-arch-config@8:6.9.11.60+dfsg-1.3 > imagemagick/imagemagick-6-common@8:6.9.11.60+dfsg-1.3
   From: imagemagick/libmagickcore-6.q16-6@8:6.9.11.60+dfsg-1.3 > imagemagick/imagemagick-6-common@8:6.9.11.60+dfsg-1.3
   and 14 more...
-  Image layer: Introduced by your base image (php:8.1.13-apache-bullseye)
+  Image layer: Introduced by your base image (php:8.2.0-apache-bullseye)
 
 ✗ Low severity vulnerability found in imagemagick/imagemagick-6-common
   Description: Out-of-bounds Read
@@ -1529,7 +1529,7 @@
   From: imagemagick/libmagickcore-6-arch-config@8:6.9.11.60+dfsg-1.3 > imagemagick/imagemagick-6-common@8:6.9.11.60+dfsg-1.3
   From: imagemagick/libmagickcore-6.q16-6@8:6.9.11.60+dfsg-1.3 > imagemagick/imagemagick-6-common@8:6.9.11.60+dfsg-1.3
   and 14 more...
-  Image layer: Introduced by your base image (php:8.1.13-apache-bullseye)
+  Image layer: Introduced by your base image (php:8.2.0-apache-bullseye)
 
 ✗ Low severity vulnerability found in harfbuzz/libharfbuzz0b
   Description: Integer Overflow or Wraparound
@@ -1538,7 +1538,7 @@
   From: harfbuzz/libharfbuzz0b@2.7.4-1
   From: librsvg/gir1.2-rsvg-2.0@2.50.3+dfsg-1 > librsvg/librsvg2-2@2.50.3+dfsg-1 > pango1.0/libpango-1.0-0@1.46.2-3 > harfbuzz/libharfbuzz0b@2.7.4-1
   From: librsvg/gir1.2-rsvg-2.0@2.50.3+dfsg-1 > librsvg/librsvg2-2@2.50.3+dfsg-1 > pango1.0/libpangocairo-1.0-0@1.46.2-3 > pango1.0/libpangoft2-1.0-0@1.46.2-3 > harfbuzz/libharfbuzz0b@2.7.4-1
-  Image layer: Introduced by your base image (php:8.1.13-apache-bullseye)
+  Image layer: Introduced by your base image (php:8.2.0-apache-bullseye)
 
 ✗ Low severity vulnerability found in gnutls28/libgnutls30
   Description: Inadequate Encryption Strength
@@ -1558,7 +1558,7 @@
   From: meta-common-packages@meta > glibc/libc-dev-bin@2.31-13+deb11u5
   From: meta-common-packages@meta > glibc/libc6@2.31-13+deb11u5
   and 1 more...
-  Image layer: Introduced by your base image (php:8.1.13-apache-bullseye)
+  Image layer: Introduced by your base image (php:8.2.0-apache-bullseye)
 
 ✗ Low severity vulnerability found in glibc/libc-bin
   Description: Uncontrolled Recursion
@@ -1568,7 +1568,7 @@
   From: meta-common-packages@meta > glibc/libc-dev-bin@2.31-13+deb11u5
   From: meta-common-packages@meta > glibc/libc6@2.31-13+deb11u5
   and 1 more...
-  Image layer: Introduced by your base image (php:8.1.13-apache-bullseye)
+  Image layer: Introduced by your base image (php:8.2.0-apache-bullseye)
 
 ✗ Low severity vulnerability found in glibc/libc-bin
   Description: Use of Insufficiently Random Values
@@ -1578,7 +1578,7 @@
   From: meta-common-packages@meta > glibc/libc-dev-bin@2.31-13+deb11u5
   From: meta-common-packages@meta > glibc/libc6@2.31-13+deb11u5
   and 1 more...
-  Image layer: Introduced by your base image (php:8.1.13-apache-bullseye)
+  Image layer: Introduced by your base image (php:8.2.0-apache-bullseye)
 
 ✗ Low severity vulnerability found in glibc/libc-bin
   Description: Information Exposure
@@ -1588,7 +1588,7 @@
   From: meta-common-packages@meta > glibc/libc-dev-bin@2.31-13+deb11u5
   From: meta-common-packages@meta > glibc/libc6@2.31-13+deb11u5
   and 1 more...
-  Image layer: Introduced by your base image (php:8.1.13-apache-bullseye)
+  Image layer: Introduced by your base image (php:8.2.0-apache-bullseye)
 
 ✗ Low severity vulnerability found in glibc/libc-bin
   Description: CVE-2019-1010023
@@ -1598,7 +1598,7 @@
   From: meta-common-packages@meta > glibc/libc-dev-bin@2.31-13+deb11u5
   From: meta-common-packages@meta > glibc/libc6@2.31-13+deb11u5
   and 1 more...
-  Image layer: Introduced by your base image (php:8.1.13-apache-bullseye)
+  Image layer: Introduced by your base image (php:8.2.0-apache-bullseye)
 
 ✗ Low severity vulnerability found in glibc/libc-bin
   Description: Uncontrolled Recursion
@@ -1608,7 +1608,7 @@
   From: meta-common-packages@meta > glibc/libc-dev-bin@2.31-13+deb11u5
   From: meta-common-packages@meta > glibc/libc6@2.31-13+deb11u5
   and 1 more...
-  Image layer: Introduced by your base image (php:8.1.13-apache-bullseye)
+  Image layer: Introduced by your base image (php:8.2.0-apache-bullseye)
 
 ✗ Low severity vulnerability found in glibc/libc-bin
   Description: Resource Management Errors
@@ -1618,7 +1618,7 @@
   From: meta-common-packages@meta > glibc/libc-dev-bin@2.31-13+deb11u5
   From: meta-common-packages@meta > glibc/libc6@2.31-13+deb11u5
   and 1 more...
-  Image layer: Introduced by your base image (php:8.1.13-apache-bullseye)
+  Image layer: Introduced by your base image (php:8.2.0-apache-bullseye)
 
 ✗ Low severity vulnerability found in glib2.0/libglib2.0-data
   Description: Cryptographic Issues
@@ -1628,7 +1628,7 @@
   From: cairo/libcairo2-dev@1.16.0-5 > glib2.0/libglib2.0-dev@2.66.8-1 > glib2.0/libglib2.0-bin@2.66.8-1 > glib2.0/libglib2.0-data@2.66.8-1
   From: glib2.0/libglib2.0-bin@2.66.8-1
   and 8 more...
-  Image layer: Introduced by your base image (php:8.1.13-apache-bullseye)
+  Image layer: Introduced by your base image (php:8.2.0-apache-bullseye)
 
 ✗ Low severity vulnerability found in git/git-man
   Description: Exposure of Resource to Wrong Sphere
@@ -1695,7 +1695,7 @@
   From: cairo/libcairo2-dev@1.16.0-5 > freetype/libfreetype6-dev@2.10.4+dfsg-1+deb11u1
   From: libwmf/libwmf-dev@0.2.8.4-17 > freetype/libfreetype6-dev@2.10.4+dfsg-1+deb11u1
   and 3 more...
-  Image layer: Introduced by your base image (php:8.1.13-apache-bullseye)
+  Image layer: Introduced by your base image (php:8.2.0-apache-bullseye)
 
 ✗ Low severity vulnerability found in expat/libexpat1-dev
   Description: XML External Entity (XXE) Injection
@@ -1704,7 +1704,7 @@
   From: expat/libexpat1-dev@2.2.10-2+deb11u5
   From: cairo/libcairo2-dev@1.16.0-5 > fontconfig/libfontconfig1-dev@2.13.1-4.2 > fontconfig/libfontconfig-dev@2.13.1-4.2 > expat/libexpat1-dev@2.2.10-2+deb11u5
   From: meta-common-packages@meta > expat/libexpat1@2.2.10-2+deb11u5
-  Image layer: Introduced by your base image (php:8.1.13-apache-bullseye)
+  Image layer: Introduced by your base image (php:8.2.0-apache-bullseye)
 
 ✗ Low severity vulnerability found in e2fsprogs/libext2fs2
   Description: Out-of-bounds Read
@@ -1714,7 +1714,7 @@
   From: e2fsprogs@1.46.2-2 > e2fsprogs/libext2fs2@1.46.2-2
   From: e2fsprogs/libss2@1.46.2-2
   and 5 more...
-  Image layer: Introduced by your base image (php:8.1.13-apache-bullseye)
+  Image layer: Introduced by your base image (php:8.2.0-apache-bullseye)
 
 ✗ Low severity vulnerability found in db5.3/libdb5.3
   Description: Out-of-bounds Read
@@ -1768,14 +1768,14 @@
   Info: https://security.snyk.io/vuln/SNYK-DEBIAN11-COREUTILS-514776
   Introduced through: meta-common-packages@meta
   From: meta-common-packages@meta > coreutils/coreutils@8.32-4+b1
-  Image layer: Introduced by your base image (php:8.1.13-apache-bullseye)
+  Image layer: Introduced by your base image (php:8.2.0-apache-bullseye)
 
 ✗ Low severity vulnerability found in coreutils/coreutils
   Description: Race Condition
   Info: https://security.snyk.io/vuln/SNYK-DEBIAN11-COREUTILS-527269
   Introduced through: meta-common-packages@meta
   From: meta-common-packages@meta > coreutils/coreutils@8.32-4+b1
-  Image layer: Introduced by your base image (php:8.1.13-apache-bullseye)
+  Image layer: Introduced by your base image (php:8.2.0-apache-bullseye)
 
 ✗ Low severity vulnerability found in cairo/libcairo-gobject2
   Description: Loop with Unreachable Exit Condition ('Infinite Loop')
@@ -1785,7 +1785,7 @@
   From: cairo/libcairo2-dev@1.16.0-5 > cairo/libcairo-gobject2@1.16.0-5
   From: librsvg/gir1.2-rsvg-2.0@2.50.3+dfsg-1 > librsvg/librsvg2-2@2.50.3+dfsg-1 > cairo/libcairo-gobject2@1.16.0-5
   and 11 more...
-  Image layer: Introduced by your base image (php:8.1.13-apache-bullseye)
+  Image layer: Introduced by your base image (php:8.2.0-apache-bullseye)
 
 ✗ Low severity vulnerability found in cairo/libcairo-gobject2
   Description: NULL Pointer Dereference
@@ -1795,7 +1795,7 @@
   From: cairo/libcairo2-dev@1.16.0-5 > cairo/libcairo-gobject2@1.16.0-5
   From: librsvg/gir1.2-rsvg-2.0@2.50.3+dfsg-1 > librsvg/librsvg2-2@2.50.3+dfsg-1 > cairo/libcairo-gobject2@1.16.0-5
   and 11 more...
-  Image layer: Introduced by your base image (php:8.1.13-apache-bullseye)
+  Image layer: Introduced by your base image (php:8.2.0-apache-bullseye)
 
 ✗ Low severity vulnerability found in cairo/libcairo-gobject2
   Description: Out-of-bounds Write
@@ -1805,7 +1805,7 @@
   From: cairo/libcairo2-dev@1.16.0-5 > cairo/libcairo-gobject2@1.16.0-5
   From: librsvg/gir1.2-rsvg-2.0@2.50.3+dfsg-1 > librsvg/librsvg2-2@2.50.3+dfsg-1 > cairo/libcairo-gobject2@1.16.0-5
   and 11 more...
-  Image layer: Introduced by your base image (php:8.1.13-apache-bullseye)
+  Image layer: Introduced by your base image (php:8.2.0-apache-bullseye)
 
 ✗ Low severity vulnerability found in cairo/libcairo-gobject2
   Description: Reachable Assertion
@@ -1815,7 +1815,7 @@
   From: cairo/libcairo2-dev@1.16.0-5 > cairo/libcairo-gobject2@1.16.0-5
   From: librsvg/gir1.2-rsvg-2.0@2.50.3+dfsg-1 > librsvg/librsvg2-2@2.50.3+dfsg-1 > cairo/libcairo-gobject2@1.16.0-5
   and 11 more...
-  Image layer: Introduced by your base image (php:8.1.13-apache-bullseye)
+  Image layer: Introduced by your base image (php:8.2.0-apache-bullseye)
 
 ✗ Low severity vulnerability found in binutils/binutils-common
   Description: Out-of-bounds Read
@@ -1825,7 +1825,7 @@
   From: dpkg/dpkg-dev@1.20.12 > binutils@2.35.2-2 > binutils/libbinutils@2.35.2-2 > binutils/binutils-common@2.35.2-2
   From: dpkg/dpkg-dev@1.20.12 > binutils@2.35.2-2 > binutils/binutils-x86-64-linux-gnu@2.35.2-2 > binutils/binutils-common@2.35.2-2
   and 8 more...
-  Image layer: Introduced by your base image (php:8.1.13-apache-bullseye)
+  Image layer: Introduced by your base image (php:8.2.0-apache-bullseye)
 
 ✗ Low severity vulnerability found in binutils/binutils-common
   Description: Race Condition
@@ -1835,7 +1835,7 @@
   From: dpkg/dpkg-dev@1.20.12 > binutils@2.35.2-2 > binutils/libbinutils@2.35.2-2 > binutils/binutils-common@2.35.2-2
   From: dpkg/dpkg-dev@1.20.12 > binutils@2.35.2-2 > binutils/binutils-x86-64-linux-gnu@2.35.2-2 > binutils/binutils-common@2.35.2-2
   and 8 more...
-  Image layer: Introduced by your base image (php:8.1.13-apache-bullseye)
+  Image layer: Introduced by your base image (php:8.2.0-apache-bullseye)
 
 ✗ Low severity vulnerability found in binutils/binutils-common
   Description: Out-of-bounds Write
@@ -1845,7 +1845,7 @@
   From: dpkg/dpkg-dev@1.20.12 > binutils@2.35.2-2 > binutils/libbinutils@2.35.2-2 > binutils/binutils-common@2.35.2-2
   From: dpkg/dpkg-dev@1.20.12 > binutils@2.35.2-2 > binutils/binutils-x86-64-linux-gnu@2.35.2-2 > binutils/binutils-common@2.35.2-2
   and 8 more...
-  Image layer: Introduced by your base image (php:8.1.13-apache-bullseye)
+  Image layer: Introduced by your base image (php:8.2.0-apache-bullseye)
 
 ✗ Low severity vulnerability found in binutils/binutils-common
   Description: Improper Input Validation
@@ -1855,7 +1855,7 @@
   From: dpkg/dpkg-dev@1.20.12 > binutils@2.35.2-2 > binutils/libbinutils@2.35.2-2 > binutils/binutils-common@2.35.2-2
   From: dpkg/dpkg-dev@1.20.12 > binutils@2.35.2-2 > binutils/binutils-x86-64-linux-gnu@2.35.2-2 > binutils/binutils-common@2.35.2-2
   and 8 more...
-  Image layer: Introduced by your base image (php:8.1.13-apache-bullseye)
+  Image layer: Introduced by your base image (php:8.2.0-apache-bullseye)
 
 ✗ Low severity vulnerability found in binutils/binutils-common
   Description: Uncontrolled Recursion
@@ -1865,7 +1865,7 @@
   From: dpkg/dpkg-dev@1.20.12 > binutils@2.35.2-2 > binutils/libbinutils@2.35.2-2 > binutils/binutils-common@2.35.2-2
   From: dpkg/dpkg-dev@1.20.12 > binutils@2.35.2-2 > binutils/binutils-x86-64-linux-gnu@2.35.2-2 > binutils/binutils-common@2.35.2-2
   and 8 more...
-  Image layer: Introduced by your base image (php:8.1.13-apache-bullseye)
+  Image layer: Introduced by your base image (php:8.2.0-apache-bullseye)
 
 ✗ Low severity vulnerability found in binutils/binutils-common
   Description: Out-of-bounds Write
@@ -1875,7 +1875,7 @@
   From: dpkg/dpkg-dev@1.20.12 > binutils@2.35.2-2 > binutils/libbinutils@2.35.2-2 > binutils/binutils-common@2.35.2-2
   From: dpkg/dpkg-dev@1.20.12 > binutils@2.35.2-2 > binutils/binutils-x86-64-linux-gnu@2.35.2-2 > binutils/binutils-common@2.35.2-2
   and 8 more...
-  Image layer: Introduced by your base image (php:8.1.13-apache-bullseye)
+  Image layer: Introduced by your base image (php:8.2.0-apache-bullseye)
 
 ✗ Low severity vulnerability found in binutils/binutils-common
   Description: Out-of-bounds Write
@@ -1885,7 +1885,7 @@
   From: dpkg/dpkg-dev@1.20.12 > binutils@2.35.2-2 > binutils/libbinutils@2.35.2-2 > binutils/binutils-common@2.35.2-2
   From: dpkg/dpkg-dev@1.20.12 > binutils@2.35.2-2 > binutils/binutils-x86-64-linux-gnu@2.35.2-2 > binutils/binutils-common@2.35.2-2
   and 8 more...
-  Image layer: Introduced by your base image (php:8.1.13-apache-bullseye)
+  Image layer: Introduced by your base image (php:8.2.0-apache-bullseye)
 
 ✗ Low severity vulnerability found in binutils/binutils-common
   Description: Uncontrolled Recursion
@@ -1895,7 +1895,7 @@
   From: dpkg/dpkg-dev@1.20.12 > binutils@2.35.2-2 > binutils/libbinutils@2.35.2-2 > binutils/binutils-common@2.35.2-2
   From: dpkg/dpkg-dev@1.20.12 > binutils@2.35.2-2 > binutils/binutils-x86-64-linux-gnu@2.35.2-2 > binutils/binutils-common@2.35.2-2
   and 8 more...
-  Image layer: Introduced by your base image (php:8.1.13-apache-bullseye)
+  Image layer: Introduced by your base image (php:8.2.0-apache-bullseye)
 
 ✗ Low severity vulnerability found in binutils/binutils-common
   Description: Out-of-bounds Write
@@ -1905,7 +1905,7 @@
   From: dpkg/dpkg-dev@1.20.12 > binutils@2.35.2-2 > binutils/libbinutils@2.35.2-2 > binutils/binutils-common@2.35.2-2
   From: dpkg/dpkg-dev@1.20.12 > binutils@2.35.2-2 > binutils/binutils-x86-64-linux-gnu@2.35.2-2 > binutils/binutils-common@2.35.2-2
   and 8 more...
-  Image layer: Introduced by your base image (php:8.1.13-apache-bullseye)
+  Image layer: Introduced by your base image (php:8.2.0-apache-bullseye)
 
 ✗ Low severity vulnerability found in binutils/binutils-common
   Description: Out-of-Bounds
@@ -1915,7 +1915,7 @@
   From: dpkg/dpkg-dev@1.20.12 > binutils@2.35.2-2 > binutils/libbinutils@2.35.2-2 > binutils/binutils-common@2.35.2-2
   From: dpkg/dpkg-dev@1.20.12 > binutils@2.35.2-2 > binutils/binutils-x86-64-linux-gnu@2.35.2-2 > binutils/binutils-common@2.35.2-2
   and 8 more...
-  Image layer: Introduced by your base image (php:8.1.13-apache-bullseye)
+  Image layer: Introduced by your base image (php:8.2.0-apache-bullseye)
 
 ✗ Low severity vulnerability found in binutils/binutils-common
   Description: CVE-2022-4285
@@ -1925,7 +1925,7 @@
   From: dpkg/dpkg-dev@1.20.12 > binutils@2.35.2-2 > binutils/libbinutils@2.35.2-2 > binutils/binutils-common@2.35.2-2
   From: dpkg/dpkg-dev@1.20.12 > binutils@2.35.2-2 > binutils/binutils-x86-64-linux-gnu@2.35.2-2 > binutils/binutils-common@2.35.2-2
   and 8 more...
-  Image layer: Introduced by your base image (php:8.1.13-apache-bullseye)
+  Image layer: Introduced by your base image (php:8.2.0-apache-bullseye)
 
 ✗ Low severity vulnerability found in binutils/binutils-common
   Description: Allocation of Resources Without Limits or Throttling
@@ -1935,7 +1935,7 @@
   From: dpkg/dpkg-dev@1.20.12 > binutils@2.35.2-2 > binutils/libbinutils@2.35.2-2 > binutils/binutils-common@2.35.2-2
   From: dpkg/dpkg-dev@1.20.12 > binutils@2.35.2-2 > binutils/binutils-x86-64-linux-gnu@2.35.2-2 > binutils/binutils-common@2.35.2-2
   and 8 more...
-  Image layer: Introduced by your base image (php:8.1.13-apache-bullseye)
+  Image layer: Introduced by your base image (php:8.2.0-apache-bullseye)
 
 ✗ Low severity vulnerability found in binutils/binutils-common
   Description: Uncontrolled Recursion
@@ -1945,7 +1945,7 @@
   From: dpkg/dpkg-dev@1.20.12 > binutils@2.35.2-2 > binutils/libbinutils@2.35.2-2 > binutils/binutils-common@2.35.2-2
   From: dpkg/dpkg-dev@1.20.12 > binutils@2.35.2-2 > binutils/binutils-x86-64-linux-gnu@2.35.2-2 > binutils/binutils-common@2.35.2-2
   and 8 more...
-  Image layer: Introduced by your base image (php:8.1.13-apache-bullseye)
+  Image layer: Introduced by your base image (php:8.2.0-apache-bullseye)
 
 ✗ Low severity vulnerability found in binutils/binutils-common
   Description: Allocation of Resources Without Limits or Throttling
@@ -1955,7 +1955,7 @@
   From: dpkg/dpkg-dev@1.20.12 > binutils@2.35.2-2 > binutils/libbinutils@2.35.2-2 > binutils/binutils-common@2.35.2-2
   From: dpkg/dpkg-dev@1.20.12 > binutils@2.35.2-2 > binutils/binutils-x86-64-linux-gnu@2.35.2-2 > binutils/binutils-common@2.35.2-2
   and 8 more...
-  Image layer: Introduced by your base image (php:8.1.13-apache-bullseye)
+  Image layer: Introduced by your base image (php:8.2.0-apache-bullseye)
 
 ✗ Low severity vulnerability found in binutils/binutils-common
   Description: Use After Free
@@ -1965,7 +1965,7 @@
   From: dpkg/dpkg-dev@1.20.12 > binutils@2.35.2-2 > binutils/libbinutils@2.35.2-2 > binutils/binutils-common@2.35.2-2
   From: dpkg/dpkg-dev@1.20.12 > binutils@2.35.2-2 > binutils/binutils-x86-64-linux-gnu@2.35.2-2 > binutils/binutils-common@2.35.2-2
   and 8 more...
-  Image layer: Introduced by your base image (php:8.1.13-apache-bullseye)
+  Image layer: Introduced by your base image (php:8.2.0-apache-bullseye)
 
 ✗ Low severity vulnerability found in binutils/binutils-common
   Description: Out-of-bounds Read
@@ -1975,7 +1975,7 @@
   From: dpkg/dpkg-dev@1.20.12 > binutils@2.35.2-2 > binutils/libbinutils@2.35.2-2 > binutils/binutils-common@2.35.2-2
   From: dpkg/dpkg-dev@1.20.12 > binutils@2.35.2-2 > binutils/binutils-x86-64-linux-gnu@2.35.2-2 > binutils/binutils-common@2.35.2-2
   and 8 more...
-  Image layer: Introduced by your base image (php:8.1.13-apache-bullseye)
+  Image layer: Introduced by your base image (php:8.2.0-apache-bullseye)
 
 ✗ Low severity vulnerability found in binutils/binutils-common
   Description: Out-of-bounds Write
@@ -1985,7 +1985,7 @@
   From: dpkg/dpkg-dev@1.20.12 > binutils@2.35.2-2 > binutils/libbinutils@2.35.2-2 > binutils/binutils-common@2.35.2-2
   From: dpkg/dpkg-dev@1.20.12 > binutils@2.35.2-2 > binutils/binutils-x86-64-linux-gnu@2.35.2-2 > binutils/binutils-common@2.35.2-2
   and 8 more...
-  Image layer: Introduced by your base image (php:8.1.13-apache-bullseye)
+  Image layer: Introduced by your base image (php:8.2.0-apache-bullseye)
 
 ✗ Low severity vulnerability found in binutils/binutils-common
   Description: Out-of-bounds Read
@@ -1995,7 +1995,7 @@
   From: dpkg/dpkg-dev@1.20.12 > binutils@2.35.2-2 > binutils/libbinutils@2.35.2-2 > binutils/binutils-common@2.35.2-2
   From: dpkg/dpkg-dev@1.20.12 > binutils@2.35.2-2 > binutils/binutils-x86-64-linux-gnu@2.35.2-2 > binutils/binutils-common@2.35.2-2
   and 8 more...
-  Image layer: Introduced by your base image (php:8.1.13-apache-bullseye)
+  Image layer: Introduced by your base image (php:8.2.0-apache-bullseye)
 
 ✗ Low severity vulnerability found in binutils/binutils-common
   Description: Integer Overflow or Wraparound
@@ -2005,14 +2005,14 @@
   From: dpkg/dpkg-dev@1.20.12 > binutils@2.35.2-2 > binutils/libbinutils@2.35.2-2 > binutils/binutils-common@2.35.2-2
   From: dpkg/dpkg-dev@1.20.12 > binutils@2.35.2-2 > binutils/binutils-x86-64-linux-gnu@2.35.2-2 > binutils/binutils-common@2.35.2-2
   and 8 more...
-  Image layer: Introduced by your base image (php:8.1.13-apache-bullseye)
+  Image layer: Introduced by your base image (php:8.2.0-apache-bullseye)
 
 ✗ Low severity vulnerability found in bash
   Description: CVE-2022-3715
   Info: https://security.snyk.io/vuln/SNYK-DEBIAN11-BASH-3112361
   Introduced through: bash@5.1-2+deb11u1
   From: bash@5.1-2+deb11u1
-  Image layer: Introduced by your base image (php:8.1.13-apache-bullseye)
+  Image layer: Introduced by your base image (php:8.2.0-apache-bullseye)
 
 ✗ Low severity vulnerability found in avahi/libavahi-common-data
   Description: Loop with Unreachable Exit Condition ('Infinite Loop')
@@ -2031,7 +2031,7 @@
   From: apt/libapt-pkg6.0@2.2.4
   From: apt@2.2.4 > apt/libapt-pkg6.0@2.2.4
   From: apt@2.2.4
-  Image layer: Introduced by your base image (php:8.1.13-apache-bullseye)
+  Image layer: Introduced by your base image (php:8.2.0-apache-bullseye)
 
 ✗ Low severity vulnerability found in apache2/apache2-bin
   Description: Cross-site Scripting (XSS)
@@ -2041,7 +2041,7 @@
   From: apache2@2.4.54-1~deb11u1 > apache2/apache2-data@2.4.54-1~deb11u1
   From: apache2@2.4.54-1~deb11u1 > apache2/apache2-utils@2.4.54-1~deb11u1
   and 1 more...
-  Image layer: Introduced by your base image (php:8.1.13-apache-bullseye)
+  Image layer: Introduced by your base image (php:8.2.0-apache-bullseye)
 
 ✗ Low severity vulnerability found in apache2/apache2-bin
   Description: Session Fixation
@@ -2051,7 +2051,7 @@
   From: apache2@2.4.54-1~deb11u1 > apache2/apache2-data@2.4.54-1~deb11u1
   From: apache2@2.4.54-1~deb11u1 > apache2/apache2-utils@2.4.54-1~deb11u1
   and 1 more...
-  Image layer: Introduced by your base image (php:8.1.13-apache-bullseye)
+  Image layer: Introduced by your base image (php:8.2.0-apache-bullseye)
 
 ✗ Low severity vulnerability found in apache2/apache2-bin
   Description: Arbitrary Code Injection
@@ -2061,7 +2061,7 @@
   From: apache2@2.4.54-1~deb11u1 > apache2/apache2-data@2.4.54-1~deb11u1
   From: apache2@2.4.54-1~deb11u1 > apache2/apache2-utils@2.4.54-1~deb11u1
   and 1 more...
-  Image layer: Introduced by your base image (php:8.1.13-apache-bullseye)
+  Image layer: Introduced by your base image (php:8.2.0-apache-bullseye)
 
 ✗ Low severity vulnerability found in apache2/apache2-bin
   Description: Numeric Errors
@@ -2071,7 +2071,7 @@
   From: apache2@2.4.54-1~deb11u1 > apache2/apache2-data@2.4.54-1~deb11u1
   From: apache2@2.4.54-1~deb11u1 > apache2/apache2-utils@2.4.54-1~deb11u1
   and 1 more...
-  Image layer: Introduced by your base image (php:8.1.13-apache-bullseye)
+  Image layer: Introduced by your base image (php:8.2.0-apache-bullseye)
 
 ✗ Low severity vulnerability found in apache2/apache2-bin
   Description: CVE-2003-1307
@@ -2081,7 +2081,7 @@
   From: apache2@2.4.54-1~deb11u1 > apache2/apache2-data@2.4.54-1~deb11u1
   From: apache2@2.4.54-1~deb11u1 > apache2/apache2-utils@2.4.54-1~deb11u1
   and 1 more...
-  Image layer: Introduced by your base image (php:8.1.13-apache-bullseye)
+  Image layer: Introduced by your base image (php:8.2.0-apache-bullseye)
 
 ✗ Low severity vulnerability found in apache2/apache2-bin
   Description: CVE-2007-1743
@@ -2091,7 +2091,7 @@
   From: apache2@2.4.54-1~deb11u1 > apache2/apache2-data@2.4.54-1~deb11u1
   From: apache2@2.4.54-1~deb11u1 > apache2/apache2-utils@2.4.54-1~deb11u1
   and 1 more...
-  Image layer: Introduced by your base image (php:8.1.13-apache-bullseye)
+  Image layer: Introduced by your base image (php:8.2.0-apache-bullseye)
 
 ✗ Low severity vulnerability found in apache2/apache2-bin
   Description: Arbitrary Code Injection
@@ -2101,7 +2101,7 @@
   From: apache2@2.4.54-1~deb11u1 > apache2/apache2-data@2.4.54-1~deb11u1
   From: apache2@2.4.54-1~deb11u1 > apache2/apache2-utils@2.4.54-1~deb11u1
   and 1 more...
-  Image layer: Introduced by your base image (php:8.1.13-apache-bullseye)
+  Image layer: Introduced by your base image (php:8.2.0-apache-bullseye)
 
 ✗ Low severity vulnerability found in apache2/apache2-bin
   Description: Resource Exhaustion
@@ -2111,7 +2111,7 @@
   From: apache2@2.4.54-1~deb11u1 > apache2/apache2-data@2.4.54-1~deb11u1
   From: apache2@2.4.54-1~deb11u1 > apache2/apache2-utils@2.4.54-1~deb11u1
   and 1 more...
-  Image layer: Introduced by your base image (php:8.1.13-apache-bullseye)
+  Image layer: Introduced by your base image (php:8.2.0-apache-bullseye)
 
 ✗ Low severity vulnerability found in aom/libaom0
   Description: NULL Pointer Dereference
@@ -2119,7 +2119,7 @@
   Introduced through: aom/libaom0@1.0.0.errata1-3, libheif/libheif1@1.11.0-1
   From: aom/libaom0@1.0.0.errata1-3
   From: libheif/libheif1@1.11.0-1 > aom/libaom0@1.0.0.errata1-3
-  Image layer: Introduced by your base image (php:8.1.13-apache-bullseye)
+  Image layer: Introduced by your base image (php:8.2.0-apache-bullseye)
 
 ✗ Low severity vulnerability found in aom/libaom0
   Description: Buffer Overflow
@@ -2127,7 +2127,7 @@
   Introduced through: aom/libaom0@1.0.0.errata1-3, libheif/libheif1@1.11.0-1
   From: aom/libaom0@1.0.0.errata1-3
   From: libheif/libheif1@1.11.0-1 > aom/libaom0@1.0.0.errata1-3
-  Image layer: Introduced by your base image (php:8.1.13-apache-bullseye)
+  Image layer: Introduced by your base image (php:8.2.0-apache-bullseye)
 
 ✗ Low severity vulnerability found in aom/libaom0
   Description: NULL Pointer Dereference
@@ -2135,7 +2135,7 @@
   Introduced through: aom/libaom0@1.0.0.errata1-3, libheif/libheif1@1.11.0-1
   From: aom/libaom0@1.0.0.errata1-3
   From: libheif/libheif1@1.11.0-1 > aom/libaom0@1.0.0.errata1-3
-  Image layer: Introduced by your base image (php:8.1.13-apache-bullseye)
+  Image layer: Introduced by your base image (php:8.2.0-apache-bullseye)
 
 ✗ Low severity vulnerability found in aom/libaom0
   Description: Out-of-bounds Write
@@ -2143,7 +2143,7 @@
   Introduced through: aom/libaom0@1.0.0.errata1-3, libheif/libheif1@1.11.0-1
   From: aom/libaom0@1.0.0.errata1-3
   From: libheif/libheif1@1.11.0-1 > aom/libaom0@1.0.0.errata1-3
-  Image layer: Introduced by your base image (php:8.1.13-apache-bullseye)
+  Image layer: Introduced by your base image (php:8.2.0-apache-bullseye)
 
 ✗ Medium severity vulnerability found in tiff/libtiff5
   Description: Out-of-bounds Write
@@ -2211,7 +2211,7 @@
   Introduced through: libde265/libde265-0@1.0.8-1, libheif/libheif1@1.11.0-1
   From: libde265/libde265-0@1.0.8-1
   From: libheif/libheif1@1.11.0-1 > libde265/libde265-0@1.0.8-1
-  Image layer: Introduced by your base image (php:8.1.13-apache-bullseye)
+  Image layer: Introduced by your base image (php:8.2.0-apache-bullseye)
 
 ✗ Medium severity vulnerability found in libde265/libde265-0
   Description: CVE-2022-43245
@@ -2219,7 +2219,7 @@
   Introduced through: libde265/libde265-0@1.0.8-1, libheif/libheif1@1.11.0-1
   From: libde265/libde265-0@1.0.8-1
   From: libheif/libheif1@1.11.0-1 > libde265/libde265-0@1.0.8-1
-  Image layer: Introduced by your base image (php:8.1.13-apache-bullseye)
+  Image layer: Introduced by your base image (php:8.2.0-apache-bullseye)
 
 ✗ Medium severity vulnerability found in libde265/libde265-0
   Description: Out-of-bounds Write
@@ -2227,7 +2227,7 @@
   Introduced through: libde265/libde265-0@1.0.8-1, libheif/libheif1@1.11.0-1
   From: libde265/libde265-0@1.0.8-1
   From: libheif/libheif1@1.11.0-1 > libde265/libde265-0@1.0.8-1
-  Image layer: Introduced by your base image (php:8.1.13-apache-bullseye)
+  Image layer: Introduced by your base image (php:8.2.0-apache-bullseye)
 
 ✗ Medium severity vulnerability found in libde265/libde265-0
   Description: Out-of-bounds Write
@@ -2235,7 +2235,7 @@
   Introduced through: libde265/libde265-0@1.0.8-1, libheif/libheif1@1.11.0-1
   From: libde265/libde265-0@1.0.8-1
   From: libheif/libheif1@1.11.0-1 > libde265/libde265-0@1.0.8-1
-  Image layer: Introduced by your base image (php:8.1.13-apache-bullseye)
+  Image layer: Introduced by your base image (php:8.2.0-apache-bullseye)
 
 ✗ Medium severity vulnerability found in libde265/libde265-0
   Description: Out-of-bounds Write
@@ -2243,7 +2243,7 @@
   Introduced through: libde265/libde265-0@1.0.8-1, libheif/libheif1@1.11.0-1
   From: libde265/libde265-0@1.0.8-1
   From: libheif/libheif1@1.11.0-1 > libde265/libde265-0@1.0.8-1
-  Image layer: Introduced by your base image (php:8.1.13-apache-bullseye)
+  Image layer: Introduced by your base image (php:8.2.0-apache-bullseye)
 
 ✗ Medium severity vulnerability found in libde265/libde265-0
   Description: Out-of-bounds Write
@@ -2251,7 +2251,7 @@
   Introduced through: libde265/libde265-0@1.0.8-1, libheif/libheif1@1.11.0-1
   From: libde265/libde265-0@1.0.8-1
   From: libheif/libheif1@1.11.0-1 > libde265/libde265-0@1.0.8-1
-  Image layer: Introduced by your base image (php:8.1.13-apache-bullseye)
+  Image layer: Introduced by your base image (php:8.2.0-apache-bullseye)
 
 ✗ Medium severity vulnerability found in libde265/libde265-0
   Description: Out-of-bounds Write
@@ -2259,7 +2259,7 @@
   Introduced through: libde265/libde265-0@1.0.8-1, libheif/libheif1@1.11.0-1
   From: libde265/libde265-0@1.0.8-1
   From: libheif/libheif1@1.11.0-1 > libde265/libde265-0@1.0.8-1
-  Image layer: Introduced by your base image (php:8.1.13-apache-bullseye)
+  Image layer: Introduced by your base image (php:8.2.0-apache-bullseye)
 
 ✗ Medium severity vulnerability found in libde265/libde265-0
   Description: Out-of-bounds Write
@@ -2267,7 +2267,7 @@
   Introduced through: libde265/libde265-0@1.0.8-1, libheif/libheif1@1.11.0-1
   From: libde265/libde265-0@1.0.8-1
   From: libheif/libheif1@1.11.0-1 > libde265/libde265-0@1.0.8-1
-  Image layer: Introduced by your base image (php:8.1.13-apache-bullseye)
+  Image layer: Introduced by your base image (php:8.2.0-apache-bullseye)
 
 ✗ Medium severity vulnerability found in libde265/libde265-0
   Description: Out-of-bounds Write
@@ -2275,7 +2275,7 @@
   Introduced through: libde265/libde265-0@1.0.8-1, libheif/libheif1@1.11.0-1
   From: libde265/libde265-0@1.0.8-1
   From: libheif/libheif1@1.11.0-1 > libde265/libde265-0@1.0.8-1
-  Image layer: Introduced by your base image (php:8.1.13-apache-bullseye)
+  Image layer: Introduced by your base image (php:8.2.0-apache-bullseye)
 
 ✗ Medium severity vulnerability found in libde265/libde265-0
   Description: Out-of-bounds Write
@@ -2283,7 +2283,7 @@
   Introduced through: libde265/libde265-0@1.0.8-1, libheif/libheif1@1.11.0-1
   From: libde265/libde265-0@1.0.8-1
   From: libheif/libheif1@1.11.0-1 > libde265/libde265-0@1.0.8-1
-  Image layer: Introduced by your base image (php:8.1.13-apache-bullseye)
+  Image layer: Introduced by your base image (php:8.2.0-apache-bullseye)
 
 ✗ Medium severity vulnerability found in libde265/libde265-0
   Description: Out-of-bounds Write
@@ -2291,7 +2291,7 @@
   Introduced through: libde265/libde265-0@1.0.8-1, libheif/libheif1@1.11.0-1
   From: libde265/libde265-0@1.0.8-1
   From: libheif/libheif1@1.11.0-1 > libde265/libde265-0@1.0.8-1
-  Image layer: Introduced by your base image (php:8.1.13-apache-bullseye)
+  Image layer: Introduced by your base image (php:8.2.0-apache-bullseye)
 
 ✗ Medium severity vulnerability found in libde265/libde265-0
   Description: Out-of-bounds Write
@@ -2299,7 +2299,7 @@
   Introduced through: libde265/libde265-0@1.0.8-1, libheif/libheif1@1.11.0-1
   From: libde265/libde265-0@1.0.8-1
   From: libheif/libheif1@1.11.0-1 > libde265/libde265-0@1.0.8-1
-  Image layer: Introduced by your base image (php:8.1.13-apache-bullseye)
+  Image layer: Introduced by your base image (php:8.2.0-apache-bullseye)
 
 ✗ Medium severity vulnerability found in libde265/libde265-0
   Description: Out-of-bounds Write
@@ -2307,7 +2307,7 @@
   Introduced through: libde265/libde265-0@1.0.8-1, libheif/libheif1@1.11.0-1
   From: libde265/libde265-0@1.0.8-1
   From: libheif/libheif1@1.11.0-1 > libde265/libde265-0@1.0.8-1
-  Image layer: Introduced by your base image (php:8.1.13-apache-bullseye)
+  Image layer: Introduced by your base image (php:8.2.0-apache-bullseye)
 
 ✗ Medium severity vulnerability found in libde265/libde265-0
   Description: CVE-2022-43238
@@ -2315,7 +2315,7 @@
   Introduced through: libde265/libde265-0@1.0.8-1, libheif/libheif1@1.11.0-1
   From: libde265/libde265-0@1.0.8-1
   From: libheif/libheif1@1.11.0-1 > libde265/libde265-0@1.0.8-1
-  Image layer: Introduced by your base image (php:8.1.13-apache-bullseye)
+  Image layer: Introduced by your base image (php:8.2.0-apache-bullseye)
 
 ✗ Medium severity vulnerability found in libde265/libde265-0
   Description: Out-of-bounds Write
@@ -2323,7 +2323,7 @@
   Introduced through: libde265/libde265-0@1.0.8-1, libheif/libheif1@1.11.0-1
   From: libde265/libde265-0@1.0.8-1
   From: libheif/libheif1@1.11.0-1 > libde265/libde265-0@1.0.8-1
-  Image layer: Introduced by your base image (php:8.1.13-apache-bullseye)
+  Image layer: Introduced by your base image (php:8.2.0-apache-bullseye)
 
 ✗ Medium severity vulnerability found in libde265/libde265-0
   Description: Out-of-bounds Write
@@ -2331,7 +2331,7 @@
   Introduced through: libde265/libde265-0@1.0.8-1, libheif/libheif1@1.11.0-1
   From: libde265/libde265-0@1.0.8-1
   From: libheif/libheif1@1.11.0-1 > libde265/libde265-0@1.0.8-1
-  Image layer: Introduced by your base image (php:8.1.13-apache-bullseye)
+  Image layer: Introduced by your base image (php:8.2.0-apache-bullseye)
 
 ✗ High severity vulnerability found in curl/libcurl4
   Description: Cleartext Transmission of Sensitive Information
@@ -2359,7 +2359,7 @@
   Introduced through: aom/libaom0@1.0.0.errata1-3, libheif/libheif1@1.11.0-1
   From: aom/libaom0@1.0.0.errata1-3
   From: libheif/libheif1@1.11.0-1 > aom/libaom0@1.0.0.errata1-3
-  Image layer: Introduced by your base image (php:8.1.13-apache-bullseye)
+  Image layer: Introduced by your base image (php:8.2.0-apache-bullseye)
 
 ✗ Critical severity vulnerability found in tiff/libtiff5
   Description: Numeric Errors
@@ -2387,7 +2387,7 @@
   Introduced through: aom/libaom0@1.0.0.errata1-3, libheif/libheif1@1.11.0-1
   From: aom/libaom0@1.0.0.errata1-3
   From: libheif/libheif1@1.11.0-1 > aom/libaom0@1.0.0.errata1-3
-  Image layer: Introduced by your base image (php:8.1.13-apache-bullseye)
+  Image layer: Introduced by your base image (php:8.2.0-apache-bullseye)
 
 ✗ Critical severity vulnerability found in aom/libaom0
   Description: Use After Free
@@ -2395,7 +2395,7 @@
   Introduced through: aom/libaom0@1.0.0.errata1-3, libheif/libheif1@1.11.0-1
   From: aom/libaom0@1.0.0.errata1-3
   From: libheif/libheif1@1.11.0-1 > aom/libaom0@1.0.0.errata1-3
-  Image layer: Introduced by your base image (php:8.1.13-apache-bullseye)
+  Image layer: Introduced by your base image (php:8.2.0-apache-bullseye)
 
 ✗ Critical severity vulnerability found in aom/libaom0
   Description: Buffer Overflow
@@ -2403,28 +2403,28 @@
   Introduced through: aom/libaom0@1.0.0.errata1-3, libheif/libheif1@1.11.0-1
   From: aom/libaom0@1.0.0.errata1-3
   From: libheif/libheif1@1.11.0-1 > aom/libaom0@1.0.0.errata1-3
-  Image layer: Introduced by your base image (php:8.1.13-apache-bullseye)
+  Image layer: Introduced by your base image (php:8.2.0-apache-bullseye)
 
 
 
 Organization:      mxdpeep-9lq
 Package manager:   deb
-Project name:      docker-image|gscloudcz/php81-apache-custom
-Docker image:      gscloudcz/php81-apache-custom:latest
+Project name:      docker-image|gscloudcz/php82-apache-custom
+Docker image:      gscloudcz/php82-apache-custom:latest
 Platform:          linux/amd64
-Base image:        php:8.1.13-apache-bullseye
+Base image:        php:8.2.0-apache-bullseye
 Licenses:          enabled
 
 Tested 367 dependencies for known issues, found 258 issues.
 
-Base Image                  Vulnerabilities  Severity
-php:8.1.13-apache-bullseye  98               1 critical, 2 high, 0 medium, 95 low
+Base Image                 Vulnerabilities  Severity
+php:8.2.0-apache-bullseye  98               1 critical, 2 high, 0 medium, 95 low
 
 Recommendations for base image upgrade:
 
 Alternative image types
 Base Image      Vulnerabilities  Severity
-php:8.1-rc-cli  85               1 critical, 2 high, 0 medium, 82 low
-php:8.1-rc-fpm  85               1 critical, 2 high, 0 medium, 82 low
 php:8.2-rc-zts  85               1 critical, 2 high, 0 medium, 82 low
 php:8-zts       85               1 critical, 2 high, 0 medium, 82 low
+php:8.2-rc-fpm  85               1 critical, 2 high, 0 medium, 82 low
+php:8-cli       85               1 critical, 2 high, 0 medium, 82 low
